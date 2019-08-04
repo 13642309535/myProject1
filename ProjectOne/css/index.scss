@@ -110,6 +110,7 @@
                     .left1 {
                         height: 100%;
                         margin-right: 10px;
+                        position: relative;
 
                         a {
                             display: inline-block;
@@ -328,9 +329,6 @@
                     }
                 }
 
-
-
-
             }
 
         }
@@ -375,307 +373,306 @@
                 }
 
                 ul:nth-child(2) {
-                    display: flex;
                     height: 100%;
 
                     li {
-                        height: 100%;
-                        width: 68px;
-                        height: 40px;
+                        float: left;
+                        line-height: 40px;
+                        -webkit-transition: all .5s;
+                        -o-transition: all .5s;
+                        -moz-transition: all .5s;
+                        transition: all .5s;
 
                         a {
                             display: block;
-                            width: 100%;
                             height: 100%;
                             color: white;
                             line-height: 40px;
                             font-size: 14px;
                             text-align: center;
+                            padding: 0 20px;
                         }
-                    }
-                }
-
-                ul:nth-child(3) {
-                    position: absolute;
-                    right: 0;
-                    width: 230px;
-                    height: 100%;
-
-                    li {
-                        float: left;
-                        width: 50%;
-                        height: 100%;
-                        position: relative;
-                        background-color: #f60;
-
-
-                        a {
-                            display: block;
-                            width: 100%;
-                            height: 100%;
-                            // font-size: 
-                            color: white;
-                            line-height: 40px;
-                            text-align: center;
-                            position: relative;
-
-                            i {
-                                position: absolute;
-                                right: 8px;
-                                top: 17px;
-                                border: 4px solid transparent;
-                                border-top: 6px solid white;
-                            }
-                        }
-
-                        div {
-                            width: 230px;
-                            height: 65px;
-                            position: absolute;
-                            top: 38px;
-                            display: none;
-                            text-align: center;
-
-
-                            i {
-                                font-size: 24px;
-                                line-height: 65px;
-                            }
-
-                            span {
-                                line-height: 65px;
-                                // float: left;
-
-                            }
-
-                            a {
-                                // float: left;
-                                display: inline-block;
-                                width: 46px;
-                                height: 25px;
-                                background-color: #f60;
-                                line-height: 25px;
-                            }
-
-                        }
-                    }
-
-                    li:hover>a i {
-                        border: 4px solid transparent;
-                        border-bottom: 6px solid black;
-                        top: 8px;
-                    }
-
-                    li:nth-child(1) div {
-                        left: -2px;
-                    }
-
-                    li:nth-child(2) div {
-                        right: -2px;
                     }
 
                     li:hover {
-                        background-color: white;
-                        border: 2px solid #f60;
-                        border-bottom: none;
-                        box-sizing: border-box;
+                        background-color: #295DD7;
                     }
+                }
+            }
 
-                    li:hover a {
-                        color: black;
-                    }
+            ul:nth-child(3) {
+                position: absolute;
+                right: 0;
+                width: 230px;
+                height: 100%;
+
+                li {
+                    float: left;
+                    width: 50%;
+                    height: 100%;
+                    position: relative;
+                    background-color: #f60;
 
 
-                    li:hover div {
+                    a {
                         display: block;
-                        border: 2px solid #f60;
-                        border-top: none;
-                        box-sizing: border-box;
+                        width: 100%;
+                        height: 100%;
+                        // font-size: 
+                        color: white;
+                        line-height: 40px;
+                        text-align: center;
+                        position: relative;
+
+                        i {
+                            position: absolute;
+                            right: 8px;
+                            top: 17px;
+                            border: 4px solid transparent;
+                            border-top: 6px solid white;
+                        }
                     }
 
+                    div {
+                        width: 230px;
+                        height: 65px;
+                        position: absolute;
+                        top: 38px;
+                        display: none;
+                        text-align: center;
 
 
+                        i {
+                            font-size: 24px;
+                            line-height: 65px;
+                        }
+
+                        span {
+                            line-height: 65px;
+                            // float: left;
+
+                        }
+
+                        a {
+                            // float: left;
+                            display: inline-block;
+                            width: 46px;
+                            height: 25px;
+                            background-color: #f60;
+                            line-height: 25px;
+                        }
+
+                    }
+                }
+
+                li:hover>a i {
+                    border: 4px solid transparent;
+                    border-bottom: 6px solid black;
+                    top: 8px;
+                }
+
+                li:nth-child(1) div {
+                    left: -2px;
+                }
+
+                li:nth-child(2) div {
+                    right: -2px;
+                }
+
+                li:hover {
+                    background-color: white;
+                    border: 2px solid #f60;
+                    border-bottom: none;
+                    box-sizing: border-box;
+                }
+
+                li:hover a {
+                    color: black;
+                }
+
+
+                li:hover div {
+                    display: block;
+                    border: 2px solid #f60;
+                    border-top: none;
+                    box-sizing: border-box;
                 }
             }
         }
     }
+}
 
-    .main1 {
-        width: 100%;
+.main1 {
+    width: 100%;
 
-        .content {
-            width: 1200px;
-            margin: auto;
+    .content {
+        width: 1200px;
+        margin: auto;
 
-            .left {
-                width: 960px;
+        .left {
+            width: 960px;
 
-                .up {
-                    width: 100%;
-                    height: 478px;
+            .up {
+                width: 100%;
+                height: 478px;
 
-                    .left1 {
-                        width: 179px;
-                        height: 447px;
-                        border: #F60 2px solid;
-                        border-top: none;
-                        box-sizing: border-box;
+                .left1 {
+                    width: 179px;
+                    height: 447px;
+                    border: #F60 2px solid;
+                    border-top: none;
+                    box-sizing: border-box;
+                    position: relative;
 
-                        >ul {
+                    >ul {
+                        width: 100%;
+                        height: 100%;
+
+                        >li {
+
                             width: 100%;
-                            height: 100%;
-
-                            >li {
-
-                                width: 100%;
-                                padding-top: 10px;
-                                padding-bottom: 10px;
-                                padding-right: 15px;
-                                box-sizing: border-box;
-                                border-bottom: 1px solid #E5E5E5;
+                            padding-top: 10px;
+                            padding-bottom: 10px;
+                            padding-right: 15px;
+                            box-sizing: border-box;
+                            border-bottom: 1px solid #E5E5E5;
+                            background-color: #f7f7f7;
 
 
-                                >i {
-                                    color: black;
-                                    font-size: 15px;
-                                    line-height: 21px;
-                                    margin-left: 2px;
-                                }
-
-                                >div {
-                                    margin-left: 2px;
-                                    width: 140px;
-
-                                    h3 {
-
-                                        width: 100%;
-                                        height: 22px;
-                                        position: relative;
-
-                                        a {
-                                            color: #333;
-                                            font-size: 14px;
-                                            font-weight: 800;
-
-                                        }
-
-                                        i {
-                                            position: absolute;
-                                            right: 10px;
-                                            top: 0;
-                                            transform: scale(0.8);
-                                            color: #cccccc;
-
-                                        }
-                                    }
-
-                                    p {
-                                        a {
-                                            // font-size: 
-                                            color: #666;
-                                            line-height: 27px;
-                                            margin-right: 6px;
-
-                                        }
-
-                                        a:hover {
-                                            text-decoration: underline;
-                                        }
-
-                                        .aO {
-                                            color: #F60;
-                                        }
-
-                                    }
-
-                                }
-
-                            }
-
-                            li:nth-child(1)>i {
-                                transform: rotate(-40deg);
+                            >i {
+                                color: black;
+                                font-size: 15px;
+                                line-height: 21px;
                                 margin-left: 2px;
                             }
 
+                            >div {
+                                margin-left: 2px;
+                                width: 140px;
 
+                                h3 {
+
+                                    width: 100%;
+                                    height: 22px;
+                                    position: relative;
+
+                                    a {
+                                        color: #333;
+                                        font-size: 14px;
+                                        font-weight: 800;
+
+                                    }
+
+                                    i {
+                                        position: absolute;
+                                        right: -1px;
+                                        top: 0;
+                                        transform: scale(0.8);
+                                        color: #cccccc;
+
+                                    }
+                                }
+
+                                p {
+                                    a {
+                                        // font-size: 
+                                        color: #666;
+                                        line-height: 27px;
+                                        margin-right: 6px;
+
+                                    }
+
+                                    a:hover {
+                                        text-decoration: underline;
+                                    }
+
+                                    .aO {
+                                        color: #F60;
+                                    }
+
+                                }
+
+                            }
+
+                        }
+
+                        li:nth-child(1)>i {
+                            transform: rotate(-40deg);
+                            margin-left: 2px;
+                        }
+
+
+
+                        >div {
+                            width: 175px;
+                            height: 175px;
+                            width: 100%;
+                            padding-top: 10px;
+                            padding-bottom: 10px;
+                            padding-right: 15px;
+                            box-sizing: border-box;
+                            border-bottom: 1px solid #E5E5E5;
+
+
+                            >i {
+                                color: black;
+                                font-size: 15px;
+                                line-height: 21px;
+                                margin-left: 2px;
+                                font-weight: 900;
+                            }
 
                             >div {
-                                width: 175px;
-                                height: 175px;
-                                width: 100%;
-                                padding-top: 10px;
-                                padding-bottom: 10px;
-                                padding-right: 15px;
-                                box-sizing: border-box;
-                                border-bottom: 1px solid #E5E5E5;
+
+                                h3 {
+
+                                    width: 100%;
+                                    height: 22px;
+                                    position: relative;
+
+                                    a {
+                                        color: #333;
+                                        font-size: 14px;
+                                        font-weight: 800;
+
+                                    }
 
 
-                                >i {
-                                    color: black;
-                                    font-size: 15px;
-                                    line-height: 21px;
-                                    margin-left: 2px;
-                                    font-weight: 900;
+                                    i {
+                                        position: absolute;
+                                        right: -14px;
+                                        top: 0;
+                                        transform: scale(0.8);
+                                        color: #cccccc;
+                                        font-weight: 900;
+
+                                    }
+
+
                                 }
 
-                                >div {
-
-                                    h3 {
-
-                                        width: 100%;
-                                        height: 22px;
-                                        position: relative;
-
+                                >ul {
+                                    li {
                                         a {
-                                            color: #333;
-                                            font-size: 14px;
-                                            font-weight: 800;
-
+                                            margin-bottom: 7px;
+                                            display: inline-block;
+                                            line-height: 23px;
+                                            color: #666;
+                                            margin-right: 6px;
                                         }
-
-
-                                        i {
-                                            position: absolute;
-                                            right: 0;
-                                            top: 0;
-                                            transform: scale(0.8);
-                                            color: #cccccc;
-                                            font-weight: 900;
-
-                                        }
-
-
                                     }
 
-                                    >ul {
-                                        li {
-                                            a {
-                                                margin-bottom: 7px;
-                                                display: inline-block;
-                                                line-height: 23px;
-                                                color: #666;
-                                                margin-right: 6px;
-                                            }
-                                        }
-
-                                        li:nth-child(1) a:nth-child(1) {
-                                            color: #F60;
-                                        }
-
+                                    li:nth-child(1) a:nth-child(1) {
+                                        color: #F60;
                                     }
-
 
                                 }
-
 
                             }
 
 
-
-
-
-
                         }
+
                     }
                 }
 
@@ -683,21 +680,26 @@
                     width: 771px;
                     height: 100%;
                     position: relative;
-                    background-color: pink;
+                    // background-color: pink;
 
                     .center {
                         position: absolute;
-                        left: -10px;
-                        top: 0;
+                        left: -28px;
+                        top: -8px;
                         width: 806px;
                         height: 485px;
+                        border: 1px solid rgb(204, 193, 193);
+                        z-index: 2;
+                        display: none;
+                        background-color: white;
 
-                        table {
+                        .table1 {
                             width: 540px;
                             position: relative;
                             margin: 7px 0 0 20px;
                             border-collapse: collapse;
                             border-spacing: 0;
+                            display: none;
 
                             tr {
                                 th {
@@ -705,8 +707,7 @@
                                     padding-left: 0;
                                     text-align: left;
                                     font-size: 12px;
-                                    padding: 6px 8px 6px 15px;
-                                    line-height: 26px;
+                                    line-height: 38px;
                                     vertical-align: top;
                                     color: #484848;
                                 }
@@ -718,26 +719,87 @@
                                     line-height: 26px;
                                     vertical-align: top;
                                     color: #484848;
-                                    a{
+
+                                    a {
                                         white-space: nowrap;
                                         color: #666;
                                         line-height: 26px;
                                     }
-                                    b{
+
+                                    b {
                                         margin: 0 4px;
                                         color: #ccc;
                                         font-weight: normal;
-        display: inline-block;
+                                        display: inline-block;
                                     }
                                 }
 
                             }
                         }
+
+                        .table2 {
+
+                            margin: 12px 0 0 0px;
+                            border-collapse: collapse;
+                            border-spacing: 0;
+                            position: absolute;
+                            right: 20px;
+                            top: -5px;
+                            display: none;
+
+                            caption {
+                                text-align: left;
+                                display: block;
+                                margin-bottom: 3px;
+                                line-height: 18px;
+                            }
+
+                            tr {
+                                td {
+                                    border: 1px solid #f2f2f2;
+                                    padding: 0;
+
+                                    a {
+                                        vertical-align: middle;
+                                        display: inline-block;
+                                        height: 40px;
+                                        overflow: hidden;
+                                        color: #666;
+                                    }
+                                }
+                            }
+
+                        }
+
+                        .bg1 {
+                            display: none;
+
+                            img {
+                                position: absolute;
+                                zoom: 1;
+                                border: none;
+                                top: 0;
+                                right: 0;
+                                z-index: -1;
+                            }
+                        }
                     }
+
+                    .up1 {
+                        position: relative;
+                        overflow: hidden;
+                        padding: 10px;
+
+
+
+                    }
+
 
                 }
             }
+
+
+
         }
     }
-
 }

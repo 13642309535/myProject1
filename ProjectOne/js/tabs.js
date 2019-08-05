@@ -49,25 +49,42 @@ $(function () {
         }
 
         addHoverEvent() {
-
+            var index;
 
             $("#tabs").find(">li").hover(function () {
-                let index = $(this).index();
+                index = $(this).index();
 
+                // 显示对应索引的table1
                 $(".table1").eq(index).css("display", "block").siblings("table").css("display", "none");
-                $(".table2 ").css("display", "block");
-                $(".bg1").css("display", "block");
-                
+
+
+                // 显示右边一整块
                 $("#center").css("display", "block");
-                $(this).css("background-color", "white");
-                $(this).css("zindex", "10");
+
+                // 左边换背景
+                $(this).css("background-color", "white").siblings("li").css("background-color", "#f7f7f7");
 
 
 
             }, function () {
+                $(this).css("background-color", "#f7f7f7");
 
-                $(".table1").css("display", "none");
+
+                $("#center").hover(function () {
+                    $(this).css("display", "block");
+
+
+                    $("#tabs").find(">li").eq(index).css("background-color", "white").siblings("li").css("background-color", "#f7f7f7");
+
+                }, function () {
+                    $(this).css("display", "none");
+
+                    $("#tabs").find(">li").css("background-color", "#f7f7f7");
+                })
+
                 $("#center").css("display", "none");
+
+
 
             });
 

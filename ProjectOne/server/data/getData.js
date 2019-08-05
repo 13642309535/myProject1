@@ -57,3 +57,48 @@ $(".ddwrap_brand_table").each(function (index, item) {
     arrT.push(arr1);
 })
 console.log(JSON.stringify(arrT));
+
+
+
+// 获取轮播图2 数据
+// arrT = [{
+//     src:1 ,
+//     title: 2,
+//     price: 3,
+
+// }];
+
+
+var arrT = [];
+$(".proslider").find("li").each(function (index, item) {
+
+    var arr1 = {};
+    arr1.src= $(item).find("img").attr("src");
+    arr1.title= $(item).find(".title a").html();
+    arr1.price= $(item).find(".price").html();
+
+    arrT.push(arr1);
+})
+console.log(JSON.stringify(arrT));
+
+
+// 获取轮播图2 数据
+// arrT = [{
+//     src:1 ,
+//     title: 2,
+//     price: 3,
+
+// }];
+
+
+var arrT = [];
+$("#Container_HotSale").find("li").each(function (index, item) {
+
+    var arr1 = {};
+    arr1.src= $(item).find("img").attr("src");
+    arr1.title= $(item).find(".title a").html();
+    arr1.price= $(item).find(".price").html();
+
+    arrT.push(arr1);
+})
+console.log(JSON.stringify(arrT));

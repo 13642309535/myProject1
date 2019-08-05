@@ -604,7 +604,6 @@
 .main1 .content .left .up .left1 > ul > div > div > ul li a {
   margin-bottom: 7px;
   display: inline-block;
-  line-height: 23px;
   color: #666;
   margin-right: 6px;
 }
@@ -626,7 +625,7 @@
   width: 806px;
   height: 485px;
   border: 1px solid #ccc1c1;
-  z-index: 2;
+  z-index: 1;
   display: none;
   background-color: white;
 }
@@ -637,7 +636,6 @@
   margin: 7px 0 0 20px;
   border-collapse: collapse;
   border-spacing: 0;
-  display: none;
 }
 
 .main1 .content .left .up .right1 .center .table1 tr th {
@@ -679,7 +677,6 @@
   position: absolute;
   right: 20px;
   top: -5px;
-  display: none;
 }
 
 .main1 .content .left .up .right1 .center .table2 caption {
@@ -702,10 +699,6 @@
   color: #666;
 }
 
-.main1 .content .left .up .right1 .center .bg1 {
-  display: none;
-}
-
 .main1 .content .left .up .right1 .center .bg1 img {
   position: absolute;
   zoom: 1;
@@ -719,4 +712,129 @@
   position: relative;
   overflow: hidden;
   padding: 10px;
+}
+
+.main1 .content .left .up .right1 .down1 {
+  width: 100%;
+  height: 203px;
+}
+
+.main1 .content .left .up .right1 .down1 .title1 {
+  width: 100%;
+  height: 24px;
+  text-align: left;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.main1 .content .left .up .right1 .down1 .title1 h2 {
+  font-size: 16px;
+  padding-left: 12px;
+  line-height: 24px;
+  margin-bottom: 10px;
+  color: #bf1313;
+  font-weight: 800;
+}
+
+.main1 .content .left .up .right1 .down1 .title1 > span {
+  color: #666;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 28px;
+  white-space: nowrap;
+  position: absolute;
+  left: 324px;
+  top: 0;
+}
+
+.main1 .content .left .up .right1 .down1 .title1 > span span {
+  display: inline-block;
+  width: 28px;
+  height: 28px;
+  text-align: center;
+  margin: 0 3px;
+  background: #EFEFEF;
+  border-radius: 2px;
+}
+
+.main1 .content .left .up .right1 .down1 .title1 a {
+  position: absolute;
+  top: 0;
+  right: 10px;
+  color: #666;
+  font-weight: 800;
+}
+
+.main1 .content .left .up .right1 .down1 #lunbotu2 {
+  width: 100%;
+  height: 169px;
+  padding-left: 3px;
+  box-sizing: border-box;
+}
+
+.main1 .content .left .down {
+  width: 100%;
+  height: 287px;
+  position: relative;
+}
+
+.main1 .content .left .down h2 {
+  border-top: none;
+  padding-top: 7px;
+  color: #f60;
+  height: 38px;
+  padding-left: 10px;
+  font-size: 20px;
+  border-right: none;
+  line-height: 36px;
+  border-bottom: 3px solid #f60;
+  font-weight: 800;
+}
+
+.main1 .content .left .down .hot_buy_title {
+  width: 880px;
+  position: absolute;
+  top: 16px;
+  left: 80px;
+}
+
+.main1 .content .left .down .hot_buy_title p {
+  padding-left: 16px;
+  background: url(https://s.neweggimages.com.cn/WebResources/2009/Default/Nest/img_v3/hot_flash.png) 0 2px no-repeat;
+  float: left;
+  color: black;
+  cursor: pointer;
+}
+
+.main1 .content .left .down .hot_buy_title span {
+  float: right;
+}
+
+.main1 .content .left .down #lunbotu3 {
+  width: 100%;
+  height: 239px;
+  border: 1px solid pink;
+  padding-bottom: 3px;
+  box-sizing: border-box;
+}
+
+.main1 .content .right {
+  width: 230px;
+}
+
+.main1 .content .right #lunbotu4 {
+  width: 230px;
+  height: 241px;
+  padding-top: 10px;
+  margin-bottom: 10px;
+}
+
+.main1 .content .right .right_a1 img {
+  margin-bottom: 10px;
+}
+
+.main1 .content .right .news {
+  width: 230px;
+  height: 122px;
+  background-color: pink;
 }

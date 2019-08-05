@@ -1,5 +1,5 @@
 /* 拿到标签 */
-class lunbotu1 {
+class lunbotu2 {
     constructor(data, root = document.body) {
         this.data = data;
         this.sliderBox = null;
@@ -12,14 +12,14 @@ class lunbotu1 {
         this.index = 0;
         this.sliderBoxStyleLeft = 0;
         // this.sliderBoxItemWidth = 700;
-        this.sliderBoxItemWidth = 771;
+        this.sliderBoxItemWidth = 744;
 
 
         this.createHTML()
         this.root.appendChild(this.slider);
         // this.randomColor();
 
-        this.sliderBoxItemCount = this.data.length;
+        this.sliderBoxItemCount = (this.data.length) / 4;
         this.addEventHandle();
         this.switchSlider(0);
         this.autoPlayer();
@@ -30,15 +30,31 @@ class lunbotu1 {
         let sliderBox = document.createElement("ul");
         sliderBox.className = "slider-box";
         let html = this.data.map((ele) => {
-            return `<li class="slider-box-item"><img src=${ele}></li>`
+            // return `<li class="slider-box-item"><img src=${ele}></li>`
+            return ` <li class="slider-box-item">
+            <a  href="#">
+                <img src="${ele.src}" alt="">
+            </a>
+
+            <a id="lunbotu2_a2"
+                href="#">${ele.title}
+                
+            </a>
+
+            <p>${ele.price}</p>
+
+        </li>`
+
+
+
         }).join("");
         sliderBox.innerHTML = html;
 
         let sliderControl = document.createElement("div");
         sliderControl.className = "slider-control";
         sliderControl.innerHTML = `
-                 <span class="prev">&lt;</span>
-                 <span class="next">&gt;</span>
+                 <span class="prev"></span>
+                 <span class="next"></span>
             `
         let sliderNav = document.createElement("ol");
         sliderNav.className = "slider-nav";
@@ -49,7 +65,9 @@ class lunbotu1 {
         sliderNav.innerHTML = html2;
 
         let slider = document.createElement("div");
-        slider.className = "slider"
+
+        // 更改最外层盒子class名
+        slider.className = "slider2"
         slider.appendChild(sliderBox)
         slider.appendChild(sliderControl)
         slider.appendChild(sliderNav)
@@ -62,7 +80,7 @@ class lunbotu1 {
     autoPlayer() {
         this.timer = setInterval(() => {
             this.next();
-        }, 2000)
+        }, 2200)
     }
     next() {
         this.index++;
@@ -98,8 +116,7 @@ class lunbotu1 {
         Array.from(this.sliderNav.children).forEach((ele) => {
             ele.className = "slider-nav-item"
         })
-        this.sliderNav.children[index].className = "slider-nav-item  active";
-        
+        this.sliderNav.children[index].className = "slider-nav-item active";
     }
     addMouseHandle() {
         /* 鼠标移入的时候 */
@@ -124,14 +141,9 @@ class lunbotu1 {
     }
 }
 
-var arr = [
 
-    "https://c1.neweggimages.com.cn/NeweggPic2/Marketing/201908/818/banner/750x320.jpg",
-    "https://c1.neweggimages.com.cn/NeweggPic2/Marketing/201907/erji0703/PC/771x245.jpg",
-    "https://c1.neweggimages.com.cn/NeweggPic2/Marketing/201905/chuanpin0528/771x245.jpg",
-]
+var oLunbotu2 = document.querySelector("#lunbotu2");
 
-var oLunbotu1 = document.querySelector("#lunbotu1");
+var banner2 = new lunbotu2(lunbotu2_data, oLunbotu2);
+banner2.init();
 
-var banner = new lunbotu1(arr, oLunbotu1);
-banner.init();

@@ -500,437 +500,780 @@
             }
         }
     }
-}
 
-.main1 {
-    width: 100%;
+    .main1 {
+        width: 100%;
+        margin-bottom: 20px;
 
-    .content {
-        width: 1200px;
-        margin: auto;
+        .content {
+            width: 1200px;
+            margin: auto;
 
-        .left {
-            width: 960px;
+            .left {
+                width: 960px;
 
-            .up {
-                width: 100%;
-                height: 478px;
+                .up {
+                    width: 100%;
+                    height: 478px;
 
-                .left1 {
-                    width: 179px;
-                    height: 447px;
-                    border: #F60 2px solid;
-                    border-top: none;
-                    box-sizing: border-box;
-                    position: relative;
+                    .left1 {
+                        width: 179px;
+                        height: 447px;
+                        border: #F60 2px solid;
+                        border-top: none;
+                        box-sizing: border-box;
+                        position: relative;
 
-                    >ul {
-                        width: 100%;
-                        height: 100%;
-
-                        >li {
-
+                        >ul {
                             width: 100%;
-                            padding-top: 10px;
-                            padding-bottom: 10px;
-                            padding-right: 15px;
-                            box-sizing: border-box;
-                            border-bottom: 1px solid #E5E5E5;
-                            background-color: #f7f7f7;
-                            // z-index: 10;
+                            height: 100%;
+
+                            >li {
+
+                                width: 100%;
+                                padding-top: 10px;
+                                padding-bottom: 10px;
+                                padding-right: 15px;
+                                box-sizing: border-box;
+                                border-bottom: 1px solid #E5E5E5;
+                                background-color: #f7f7f7;
+                                // z-index: 10;
 
 
-                            >i {
-                                color: black;
-                                font-size: 15px;
-                                line-height: 21px;
-                                margin-left: 2px;
-                            }
-
-                            >div {
-                                margin-left: 2px;
-                                width: 140px;
-
-                                h3 {
-
-                                    width: 100%;
-                                    height: 22px;
-                                    position: relative;
-
-                                    a {
-                                        color: #333;
-                                        font-size: 14px;
-                                        font-weight: 800;
-
-                                    }
-
-                                    i {
-                                        position: absolute;
-                                        right: -1px;
-                                        top: 0;
-                                        transform: scale(0.8);
-                                        color: #cccccc;
-
-                                    }
+                                >i {
+                                    color: black;
+                                    font-size: 15px;
+                                    line-height: 21px;
+                                    margin-left: 2px;
                                 }
 
-                                p {
-                                    a {
-                                        // font-size: 
-                                        color: #666;
-                                        line-height: 27px;
-                                        margin-right: 6px;
+                                >div {
+                                    margin-left: 2px;
+                                    width: 140px;
 
-                                    }
+                                    h3 {
 
-                                    a:hover {
-                                        text-decoration: underline;
-                                    }
+                                        width: 100%;
+                                        height: 22px;
+                                        position: relative;
 
-                                    .aO {
-                                        color: #F60;
-                                    }
-
-                                }
-
-                            }
-
-                        }
-
-                        li:nth-child(1)>i {
-                            transform: rotate(-40deg);
-                            margin-left: 2px;
-                        }
-
-
-
-                        >div {
-                            width: 175px;
-                            height: 175px;
-                            width: 100%;
-                            padding-top: 10px;
-                            padding-bottom: 10px;
-                            padding-right: 15px;
-                            box-sizing: border-box;
-                            border-bottom: 1px solid #E5E5E5;
-
-
-                            >i {
-                                color: black;
-                                font-size: 15px;
-                                line-height: 21px;
-                                margin-left: 2px;
-                                font-weight: 900;
-                            }
-
-                            >div {
-
-                                h3 {
-
-                                    width: 100%;
-                                    height: 22px;
-                                    position: relative;
-
-                                    a {
-                                        color: #333;
-                                        font-size: 14px;
-                                        font-weight: 800;
-
-                                    }
-
-
-                                    i {
-                                        position: absolute;
-                                        right: -14px;
-                                        top: 0;
-                                        transform: scale(0.8);
-                                        color: #cccccc;
-                                        font-weight: 900;
-
-                                    }
-
-
-                                }
-
-                                >ul {
-                                    li {
                                         a {
-                                            margin-bottom: 7px;
-                                            display: inline-block;
-                                            // line-height: 23px;
-                                            color: #666;
-                                            margin-right: 6px;
+                                            color: #333;
+                                            font-size: 14px;
+                                            font-weight: 800;
+
+                                        }
+
+                                        i {
+                                            position: absolute;
+                                            right: -1px;
+                                            top: 0;
+                                            transform: scale(0.8);
+                                            color: #cccccc;
+
                                         }
                                     }
 
-                                    li:nth-child(1) a:nth-child(1) {
-                                        color: #F60;
+                                    p {
+                                        a {
+                                            // font-size: 
+                                            color: #666;
+                                            line-height: 27px;
+                                            margin-right: 6px;
+
+                                        }
+
+                                        a:hover {
+                                            text-decoration: underline;
+                                        }
+
+                                        .aO {
+                                            color: #F60;
+                                        }
+
                                     }
 
                                 }
 
                             }
 
+                            li:nth-child(1)>i {
+                                transform: rotate(-40deg);
+                                margin-left: 2px;
+                            }
+
+
+
+                            >div {
+                                width: 175px;
+                                height: 175px;
+                                width: 100%;
+                                padding-top: 10px;
+                                padding-bottom: 10px;
+                                padding-right: 15px;
+                                box-sizing: border-box;
+                                border-bottom: 1px solid #E5E5E5;
+
+
+                                >i {
+                                    color: black;
+                                    font-size: 15px;
+                                    line-height: 21px;
+                                    margin-left: 2px;
+                                    font-weight: 900;
+                                }
+
+                                >div {
+
+                                    h3 {
+
+                                        width: 100%;
+                                        height: 22px;
+                                        position: relative;
+
+                                        a {
+                                            color: #333;
+                                            font-size: 14px;
+                                            font-weight: 800;
+
+                                        }
+
+
+                                        i {
+                                            position: absolute;
+                                            right: -14px;
+                                            top: 0;
+                                            transform: scale(0.8);
+                                            color: #cccccc;
+                                            font-weight: 900;
+
+                                        }
+
+
+                                    }
+
+                                    >ul {
+                                        li {
+                                            a {
+                                                margin-bottom: 7px;
+                                                display: inline-block;
+                                                // line-height: 23px;
+                                                color: #666;
+                                                margin-right: 6px;
+                                            }
+                                        }
+
+                                        li:nth-child(1) a:nth-child(1) {
+                                            color: #F60;
+                                        }
+
+                                    }
+
+                                }
+
+
+                            }
 
                         }
+                    }
+
+                    .right1 {
+                        width: 771px;
+                        height: 100%;
+                        position: relative;
+                        // background-color: pink;
+
+                        .center {
+                            position: absolute;
+                            left: -28px;
+                            top: -8px;
+                            width: 806px;
+                            height: 485px;
+                            border: 1px solid rgb(204, 193, 193);
+                            z-index: 1;
+                            display: none;
+                            background-color: white;
+
+                            .table1 {
+                                width: 540px;
+                                position: relative;
+                                margin: 7px 0 0 20px;
+                                border-collapse: collapse;
+                                border-spacing: 0;
+
+                                tr {
+                                    th {
+                                        font-weight: bold;
+                                        padding-left: 0;
+                                        text-align: left;
+                                        font-size: 12px;
+                                        line-height: 38px;
+                                        vertical-align: top;
+                                        color: #484848;
+                                    }
+
+                                    td {
+                                        width: 461px;
+                                        padding-left: 9px;
+                                        padding: 6px 8px 6px 15px;
+                                        line-height: 26px;
+                                        vertical-align: top;
+                                        color: #484848;
+
+                                        a {
+                                            white-space: nowrap;
+                                            color: #666;
+                                            line-height: 26px;
+                                        }
+
+                                        b {
+                                            margin: 0 4px;
+                                            color: #ccc;
+                                            font-weight: normal;
+                                            display: inline-block;
+                                        }
+                                    }
+
+                                }
+                            }
+
+                            .table2 {
+
+                                margin: 12px 0 0 0px;
+                                border-collapse: collapse;
+                                border-spacing: 0;
+                                position: absolute;
+                                right: 20px;
+                                top: -5px;
+
+                                caption {
+                                    text-align: left;
+                                    display: block;
+                                    margin-bottom: 3px;
+                                    line-height: 18px;
+                                }
+
+                                tr {
+                                    td {
+                                        border: 1px solid #f2f2f2;
+                                        padding: 0;
+
+                                        a {
+                                            vertical-align: middle;
+                                            display: inline-block;
+                                            height: 40px;
+                                            overflow: hidden;
+                                            color: #666;
+                                        }
+                                    }
+                                }
+
+                            }
+
+                            .bg1 {
+
+                                img {
+                                    position: absolute;
+                                    zoom: 1;
+                                    border: none;
+                                    top: 0;
+                                    right: 0;
+                                    z-index: -1;
+                                }
+                            }
+                        }
+
+                        .up1 {
+                            position: relative;
+                            overflow: hidden;
+                            padding: 10px;
+                        }
+
+                        .down1 {
+                            width: 100%;
+                            height: 203px;
+                            // background-color: pink;
+
+                            .title1 {
+                                width: 100%;
+                                height: 24px;
+                                text-align: left;
+                                position: relative;
+                                margin-bottom: 10px;
+
+
+                                h2 {
+                                    font-size: 16px;
+                                    padding-left: 12px;
+                                    line-height: 24px;
+                                    margin-bottom: 10px;
+                                    color: #bf1313;
+                                    font-weight: 800;
+                                }
+
+                                >span {
+                                    color: #666;
+                                    font-weight: bold;
+                                    font-size: 15px;
+                                    line-height: 28px;
+                                    white-space: nowrap;
+                                    position: absolute;
+                                    left: 324px;
+                                    top: 0;
+
+                                    span {
+                                        display: inline-block;
+                                        width: 28px;
+                                        height: 28px;
+                                        text-align: center;
+                                        margin: 0 3px;
+                                        background: #EFEFEF;
+                                        border-radius: 2px;
+                                    }
+                                }
+
+                                a {
+                                    position: absolute;
+                                    top: 0;
+                                    right: 10px;
+                                    color: #666;
+                                    font-weight: 800;
+
+                                }
+                            }
+
+                            #lunbotu2 {
+                                width: 100%;
+                                height: 169px;
+                                padding-left: 3px;
+                                box-sizing: border-box;
+                            }
+                        }
+
 
                     }
                 }
 
-                .right1 {
-                    width: 771px;
-                    height: 100%;
+                .down {
+                    width: 100%;
+                    height: 287px;
                     position: relative;
-                    // background-color: pink;
 
-                    .center {
+                    h2 {
+                        border-top: none;
+                        padding-top: 7px;
+                        color: #f60;
+                        height: 38px;
+                        padding-left: 10px;
+                        font-size: 20px;
+                        border-right: none;
+                        line-height: 36px;
+                        border-bottom: 3px solid #f60;
+                        font-weight: 800;
+                    }
+
+                    .hot_buy_title {
+                        width: 880px;
                         position: absolute;
-                        left: -28px;
-                        top: -8px;
-                        width: 806px;
-                        height: 485px;
-                        border: 1px solid rgb(204, 193, 193);
-                        z-index: 1;
-                        display: none;
-                        background-color: white;
+                        top: 16px;
+                        left: 80px;
 
-                        .table1 {
-                            width: 540px;
-                            position: relative;
-                            margin: 7px 0 0 20px;
-                            border-collapse: collapse;
-                            border-spacing: 0;
-
-                            tr {
-                                th {
-                                    font-weight: bold;
-                                    padding-left: 0;
-                                    text-align: left;
-                                    font-size: 12px;
-                                    line-height: 38px;
-                                    vertical-align: top;
-                                    color: #484848;
-                                }
-
-                                td {
-                                    width: 461px;
-                                    padding-left: 9px;
-                                    padding: 6px 8px 6px 15px;
-                                    line-height: 26px;
-                                    vertical-align: top;
-                                    color: #484848;
-
-                                    a {
-                                        white-space: nowrap;
-                                        color: #666;
-                                        line-height: 26px;
-                                    }
-
-                                    b {
-                                        margin: 0 4px;
-                                        color: #ccc;
-                                        font-weight: normal;
-                                        display: inline-block;
-                                    }
-                                }
-
-                            }
+                        p {
+                            padding-left: 16px;
+                            background: url(https://s.neweggimages.com.cn/WebResources/2009/Default/Nest/img_v3/hot_flash.png) 0 2px no-repeat;
+                            float: left;
+                            color: black;
+                            cursor: pointer;
                         }
 
-                        .table2 {
-
-                            margin: 12px 0 0 0px;
-                            border-collapse: collapse;
-                            border-spacing: 0;
-                            position: absolute;
-                            right: 20px;
-                            top: -5px;
-
-                            caption {
-                                text-align: left;
-                                display: block;
-                                margin-bottom: 3px;
-                                line-height: 18px;
-                            }
-
-                            tr {
-                                td {
-                                    border: 1px solid #f2f2f2;
-                                    padding: 0;
-
-                                    a {
-                                        vertical-align: middle;
-                                        display: inline-block;
-                                        height: 40px;
-                                        overflow: hidden;
-                                        color: #666;
-                                    }
-                                }
-                            }
-
-                        }
-
-                        .bg1 {
-
-                            img {
-                                position: absolute;
-                                zoom: 1;
-                                border: none;
-                                top: 0;
-                                right: 0;
-                                z-index: -1;
-                            }
+                        span {
+                            float: right;
                         }
                     }
 
-                    .up1 {
-                        position: relative;
-                        overflow: hidden;
-                        padding: 10px;
-                    }
-
-                    .down1 {
+                    #lunbotu3 {
                         width: 100%;
-                        height: 203px;
-                        // background-color: pink;
+                        height: 239px;
+                        border: 1px solid pink;
+                        padding-bottom: 3px;
+                        box-sizing: border-box;
 
-                        .title1 {
-                            width: 100%;
-                            height: 24px;
-                            text-align: left;
-                            position: relative;
-                            margin-bottom: 10px;
+                    }
 
 
-                            h2 {
-                                font-size: 16px;
-                                padding-left: 12px;
-                                line-height: 24px;
-                                margin-bottom: 10px;
-                                color: #bf1313;
-                                font-weight: 800;
-                            }
 
-                            >span {
+                }
+
+
+            }
+
+            .right {
+                width: 230px;
+
+                #lunbotu4 {
+                    width: 230px;
+                    height: 241px;
+                    padding-top: 10px;
+                    margin-bottom: 10px;
+                }
+
+                .right_a1 {
+                    img {
+                        margin-bottom: 10px;
+                    }
+                }
+
+                .news {
+                    padding: 10px 0;
+                    width: 99%;
+                    border: 1px solid #d9d9d9;
+                    height: 100px;
+                    background: #f6f6f6;
+                    margin-top: 10px;
+
+                    dl {
+                        text-align: left;
+
+                        dt {
+                            font: bolder 14px simusn;
+                            color: #666;
+                            margin-bottom: 8px;
+                            height: 18px;
+                            padding: 0 10px 5px 10px;
+                            border-bottom: 1px dashed #D9D9D9;
+
+                            h5 {
+                                font: bolder 14px simusn;
                                 color: #666;
-                                font-weight: bold;
-                                font-size: 15px;
-                                line-height: 28px;
-                                white-space: nowrap;
-                                position: absolute;
-                                left: 324px;
-                                top: 0;
-
-                                span {
-                                    display: inline-block;
-                                    width: 28px;
-                                    height: 28px;
-                                    text-align: center;
-                                    margin: 0 3px;
-                                    background: #EFEFEF;
-                                    border-radius: 2px;
-                                }
+                                margin: 0 0 8px 0;
+                                // float: left;
+                                display: inline;
                             }
 
                             a {
-                                position: absolute;
-                                top: 0;
-                                right: 10px;
+                                font: 12px simsun;
+                                float: right;
+                                margin: 1px 10px 0 10px;
                                 color: #666;
-                                font-weight: 800;
-
                             }
                         }
 
-                        #lunbotu2 {
-                            width: 100%;
-                            height: 169px;
-                            padding-left: 3px;
-                            box-sizing: border-box;
+                        dd {
+                            font: 12px simusn;
+                            margin-bottom: 6px;
+                            height: 14px;
+                            clear: both;
+                            padding: 0 10px;
+
+                            a {
+                                color: #666;
+                            }
+
+                            i {
+                                color: #f40;
+                                font-size: 14px;
+                            }
+
+
+                        }
+                    }
+                }
+
+            }
+        }
+    }
+
+    .main2 {
+        width: 100%;
+
+        .content {
+            width: 1200px;
+            margin: auto;
+        }
+
+        h2 {
+            width: 100%;
+            height: 48px;
+            border-top: none;
+            padding-top: 7px;
+            color: #f60;
+            padding-left: 10px;
+            font-size: 20px;
+            border-right: none;
+            font-weight: 900;
+            border-bottom: 3px solid #f60;
+            position: relative;
+
+            span {
+                font-size: 12px;
+                line-height: 1.5;
+                color: #484848;
+                position: absolute;
+                right: 0px;
+                top: 15px;
+                font-weight: 300;
+
+            }
+
+
+        }
+
+        #goodsGoodReputation {
+            width: 1200px;
+            height: 277px;
+            border: 1px solid #dadada;
+            box-sizing: border-box;
+            overflow: hidden;
+            margin-bottom: 20px;
+
+            li {
+                padding-top: 35px;
+                height: 240px;
+                float: left;
+                width: 175px;
+                transition: all 0.5s;
+
+
+                .ago {
+                    display: none;
+
+                    img {
+                        width: 250px;
+                        height: 185px;
+                        margin: 0 30px;
+                    }
+
+                    >div {
+                        width: 338px;
+                        height: 208px;
+
+                        h3 {
+                            white-space: nowrap;
+                            margin-bottom: 10px;
+
+                            strong {
+                                color: #f60;
+                                font-weight: 900;
+                            }
+
+                            a {
+                                color: #333;
+                                display: inline-block;
+                                font: 14px tahoma, microsoft yahei;
+                                overflow: hidden;
+                                text-overflow: ellipsis;
+                                vertical-align: top;
+                                width: 270px;
+                            }
+                        }
+
+                        .p1 {
+                            // font: 12px/20px tahoma, simsun;
+                            line-height: 20px;
+                            color: #676767;
+                            height: 123px;
+                            margin-bottom: 10px;
+                        }
+
+                        .bottom {
+                            .rank {
+                                a {
+                                    float: left;
+                                    padding-left: 65px;
+                                    height: 12px;
+                                    line-height: 12px;
+                                    font-size: 10px;
+                                    color: #039;
+                                    background: url(https://s.neweggimages.com.cn/WebResources/2009/Default/Nest/img_v3/flat_rank.gif) no-repeat left 0;
+                                }
+                            }
+
+                            .user {
+                                .p2 {
+                                    float: left;
+                                    width: 100px;
+                                    line-height: 20px;
+                                    margin-right: 10px;
+                                    text-align: right;
+                                    color: #676767;
+                                    white-space: nowrap;
+                                    font-size: 12px;
+                                }
+
+                                span {
+                                    background: url(https://s.neweggimages.com.cn/WebResources/2009/Default/Nest/img_v3/user140106.jpg) no-repeat left top;
+                                    background-position: -1px -205px;
+
+                                    display: block;
+                                    height: 46px;
+                                    width: 46px;
+                                    overflow: hidden;
+                                    text-indent: -20000px;
+                                }
+                            }
+                        }
+
+                        .event_show {
+                            display: none;
+
+                            p {
+                                color: #f60;
+                            }
+                        }
+                    }
+
+                }
+
+
+                .later {
+                    display: block;
+                    position: relative;
+                    padding-left: 20px;
+                    box-sizing: border-box;
+
+                    h3 {
+                        color: #333;
+                        font: 14px tahoma, microsoft yahei;
+                        margin-bottom: 10px;
+                        overflow: hidden;
+                        white-space: nowrap;
+                        width: 100%;
+
+
+
+                    }
+
+                    >div {
+                        position: absolute;
+                        top: 26px;
+                        left: 18px;
+                        z-index: 3;
+
+                        p {
+                            color: #f60;
+                            line-height: 1.5;
+                        }
+                    }
+
+                    img {
+                        width: 220px;
+                        height: 165px;
+                        position: absolute;
+                        bottom: -218px;
+                        left: 0;
+                    }
+                }
+
+
+
+            }
+
+            li:nth-child(1) {
+                width: 670px;
+
+                .ago {
+                    display: block
+                }
+
+                .later {
+                    display: none;
+                }
+            }
+
+
+
+        }
+
+        .Container_Tab {
+            width: 100%;
+            height: 290px;
+
+            >ul {
+                width: 960px;
+                height: 270px;
+                border: 1px solid #d9d9d9;
+                box-sizing: border-box;
+                float: left;
+
+                >li {
+                    width: 25%;
+                    height: 30px;
+                    float: left;
+
+                    .span1 {
+                        display: block;
+                        width: 100%;
+                        color: #666;
+                        background: #F6F6F6;
+                        border-bottom: 1px solid #d9d9d9;
+                        border-left: 1px solid #d9d9d9;
+                        box-sizing: border-box;
+                        float: left;
+                        height: 29px;
+                        line-height: 30px;
+                        font-size: 14px;
+                        text-align: center;
+                    }
+
+                    ul {
+                        // display: none;
+                        width: 958px;
+                        padding: 30px 10px 0;
+                        height: 208px;
+                        overflow: hidden;
+                        position: relative;
+
+                        li {
+                            float: left;
+                            width: 150px;
+                            height: 183px;
+                            padding: 0 18px;
+                            position: relative;
+
+                            .img1 {
+                                width: 144px;
+                                height: 108px;
+                                display: block;
+                                margin: 0 auto;
+                                overflow: hidden;
+                            }
+
+                            .img2 {
+                                width: 52px;
+                                height: 52px;
+                                position: absolute;
+                                top: 3px;
+                                right: 10px;
+                            }
+
+                            p {
+                                color: #666;
+                                margin-bottom: 14px;
+                                height: 36px;
+                                overflow: hidden;
+                                word-wrap: break-word;
+                                word-break: break-all;
+                                margin: 4px 0 14px 0;
+
+                            }
+
+                            span {
+                                color: #f60;
+                                font-family: arial;
+                                font-weight: bold;
+                                font-size: 14px;
+                                text-align: left;
+                            }
                         }
                     }
 
 
-                }
-            }
-
-            .down {
-                width: 100%;
-                height: 287px;
-                position: relative;
-
-                h2 {
-                    border-top: none;
-                    padding-top: 7px;
-                    color: #f60;
-                    height: 38px;
-                    padding-left: 10px;
-                    font-size: 20px;
-                    border-right: none;
-                    line-height: 36px;
-                    border-bottom: 3px solid #f60;
-                    font-weight: 800;
-                }
-
-                .hot_buy_title {
-                    width: 880px;
-                    position: absolute;
-                    top: 16px;
-                    left: 80px;
-
-                    p {
-                        padding-left: 16px;
-                        background: url(https://s.neweggimages.com.cn/WebResources/2009/Default/Nest/img_v3/hot_flash.png) 0 2px no-repeat;
-                        float: left;
-                        color: black;
-                        cursor: pointer;
-                    }
-
-                    span {
-                        float: right;
-                    }
-                }
-
-                #lunbotu3 {
-                    width: 100%;
-                    height: 239px;
-                    border: 1px solid pink;
-                    padding-bottom: 3px;
-                    box-sizing: border-box;
 
                 }
 
-
-
             }
-
-
-        }
-
-        .right {
-            width: 230px;
-
-            #lunbotu4 {
-                width: 230px;
-                height: 241px;
-                padding-top: 10px;
-                margin-bottom: 10px;
-            }
-
-            .right_a1 {
-                img {
-                    margin-bottom: 10px;
-                }
-            }
-
-            .news {
-                width: 230px;
-                height: 122px;
-                background-color: pink;
-
-                dl {}
-            }
-
         }
     }
+
+
 }

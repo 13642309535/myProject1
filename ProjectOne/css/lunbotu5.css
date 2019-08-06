@@ -1,0 +1,89 @@
+.slider5 {
+    width: 226px;
+    height: 127px;
+    overflow: hidden;
+    position: relative;
+    font-size: 0;
+}
+
+.slider5 .slider-box {
+    width: 10000px;
+    height: 127px;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+}
+
+.slider5 .slider-box-item {
+    /* width: 700px;
+    height: 350px; */
+    width: 226px;
+    height: 127px;
+    font-size: 40px;
+    text-align: center;
+    /* display: inline-block; */
+    /* line-height: 350px; */
+    line-height: 241px;
+    float: left;
+}
+
+.slider5 .slider-box-item a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.slider5 .slider-box-item img {
+    /* width: 700px;
+    height: 350px; */
+    width: 226px;
+    height: 127px;
+}
+
+.slider5 .slider-control {
+    position: absolute;
+    width: 0;
+    height: 100px;
+    line-height: 100px;
+    top: 50%;
+    margin-top: -50px;
+    font-size: 60px;
+}
+
+.slider5 .prev {
+    margin-left: 20px;
+    display: none;
+}
+
+.slider5 .next {
+    float: right;
+    margin-right: 20px;
+    display: none;
+
+}
+
+.slider5 .slider-nav {
+    width: 0;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    height: 10px;
+}
+
+.slider5 .slider-nav-item {
+    background: #d9d9d9;
+    color: #fff;
+    float: left;
+    border-radius: 5px;
+    margin: 0 5px;
+    text-align: center;
+    width: 10px;
+    height: 10px;
+    line-height: 26px;
+    font-size: 12px;
+    display: none;
+}
+
+.slider5 .active {
+    background: #f60;
+}

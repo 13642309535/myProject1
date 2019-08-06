@@ -468,25 +468,26 @@
   box-sizing: border-box;
 }
 
-.main1 {
+#newEgg .main1 {
   width: 100%;
+  margin-bottom: 20px;
 }
 
-.main1 .content {
+#newEgg .main1 .content {
   width: 1200px;
   margin: auto;
 }
 
-.main1 .content .left {
+#newEgg .main1 .content .left {
   width: 960px;
 }
 
-.main1 .content .left .up {
+#newEgg .main1 .content .left .up {
   width: 100%;
   height: 478px;
 }
 
-.main1 .content .left .up .left1 {
+#newEgg .main1 .content .left .up .left1 {
   width: 179px;
   height: 447px;
   border: #F60 2px solid;
@@ -495,12 +496,12 @@
   position: relative;
 }
 
-.main1 .content .left .up .left1 > ul {
+#newEgg .main1 .content .left .up .left1 > ul {
   width: 100%;
   height: 100%;
 }
 
-.main1 .content .left .up .left1 > ul > li {
+#newEgg .main1 .content .left .up .left1 > ul > li {
   width: 100%;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -510,31 +511,31 @@
   background-color: #f7f7f7;
 }
 
-.main1 .content .left .up .left1 > ul > li > i {
+#newEgg .main1 .content .left .up .left1 > ul > li > i {
   color: black;
   font-size: 15px;
   line-height: 21px;
   margin-left: 2px;
 }
 
-.main1 .content .left .up .left1 > ul > li > div {
+#newEgg .main1 .content .left .up .left1 > ul > li > div {
   margin-left: 2px;
   width: 140px;
 }
 
-.main1 .content .left .up .left1 > ul > li > div h3 {
+#newEgg .main1 .content .left .up .left1 > ul > li > div h3 {
   width: 100%;
   height: 22px;
   position: relative;
 }
 
-.main1 .content .left .up .left1 > ul > li > div h3 a {
+#newEgg .main1 .content .left .up .left1 > ul > li > div h3 a {
   color: #333;
   font-size: 14px;
   font-weight: 800;
 }
 
-.main1 .content .left .up .left1 > ul > li > div h3 i {
+#newEgg .main1 .content .left .up .left1 > ul > li > div h3 i {
   position: absolute;
   right: -1px;
   top: 0;
@@ -542,26 +543,26 @@
   color: #cccccc;
 }
 
-.main1 .content .left .up .left1 > ul > li > div p a {
+#newEgg .main1 .content .left .up .left1 > ul > li > div p a {
   color: #666;
   line-height: 27px;
   margin-right: 6px;
 }
 
-.main1 .content .left .up .left1 > ul > li > div p a:hover {
+#newEgg .main1 .content .left .up .left1 > ul > li > div p a:hover {
   text-decoration: underline;
 }
 
-.main1 .content .left .up .left1 > ul > li > div p .aO {
+#newEgg .main1 .content .left .up .left1 > ul > li > div p .aO {
   color: #F60;
 }
 
-.main1 .content .left .up .left1 > ul li:nth-child(1) > i {
+#newEgg .main1 .content .left .up .left1 > ul li:nth-child(1) > i {
   transform: rotate(-40deg);
   margin-left: 2px;
 }
 
-.main1 .content .left .up .left1 > ul > div {
+#newEgg .main1 .content .left .up .left1 > ul > div {
   width: 175px;
   height: 175px;
   width: 100%;
@@ -572,7 +573,7 @@
   border-bottom: 1px solid #E5E5E5;
 }
 
-.main1 .content .left .up .left1 > ul > div > i {
+#newEgg .main1 .content .left .up .left1 > ul > div > i {
   color: black;
   font-size: 15px;
   line-height: 21px;
@@ -580,19 +581,19 @@
   font-weight: 900;
 }
 
-.main1 .content .left .up .left1 > ul > div > div h3 {
+#newEgg .main1 .content .left .up .left1 > ul > div > div h3 {
   width: 100%;
   height: 22px;
   position: relative;
 }
 
-.main1 .content .left .up .left1 > ul > div > div h3 a {
+#newEgg .main1 .content .left .up .left1 > ul > div > div h3 a {
   color: #333;
   font-size: 14px;
   font-weight: 800;
 }
 
-.main1 .content .left .up .left1 > ul > div > div h3 i {
+#newEgg .main1 .content .left .up .left1 > ul > div > div h3 i {
   position: absolute;
   right: -14px;
   top: 0;
@@ -601,24 +602,24 @@
   font-weight: 900;
 }
 
-.main1 .content .left .up .left1 > ul > div > div > ul li a {
+#newEgg .main1 .content .left .up .left1 > ul > div > div > ul li a {
   margin-bottom: 7px;
   display: inline-block;
   color: #666;
   margin-right: 6px;
 }
 
-.main1 .content .left .up .left1 > ul > div > div > ul li:nth-child(1) a:nth-child(1) {
+#newEgg .main1 .content .left .up .left1 > ul > div > div > ul li:nth-child(1) a:nth-child(1) {
   color: #F60;
 }
 
-.main1 .content .left .up .right1 {
+#newEgg .main1 .content .left .up .right1 {
   width: 771px;
   height: 100%;
   position: relative;
 }
 
-.main1 .content .left .up .right1 .center {
+#newEgg .main1 .content .left .up .right1 .center {
   position: absolute;
   left: -28px;
   top: -8px;
@@ -630,7 +631,7 @@
   background-color: white;
 }
 
-.main1 .content .left .up .right1 .center .table1 {
+#newEgg .main1 .content .left .up .right1 .center .table1 {
   width: 540px;
   position: relative;
   margin: 7px 0 0 20px;
@@ -638,7 +639,7 @@
   border-spacing: 0;
 }
 
-.main1 .content .left .up .right1 .center .table1 tr th {
+#newEgg .main1 .content .left .up .right1 .center .table1 tr th {
   font-weight: bold;
   padding-left: 0;
   text-align: left;
@@ -648,7 +649,7 @@
   color: #484848;
 }
 
-.main1 .content .left .up .right1 .center .table1 tr td {
+#newEgg .main1 .content .left .up .right1 .center .table1 tr td {
   width: 461px;
   padding-left: 9px;
   padding: 6px 8px 6px 15px;
@@ -657,20 +658,20 @@
   color: #484848;
 }
 
-.main1 .content .left .up .right1 .center .table1 tr td a {
+#newEgg .main1 .content .left .up .right1 .center .table1 tr td a {
   white-space: nowrap;
   color: #666;
   line-height: 26px;
 }
 
-.main1 .content .left .up .right1 .center .table1 tr td b {
+#newEgg .main1 .content .left .up .right1 .center .table1 tr td b {
   margin: 0 4px;
   color: #ccc;
   font-weight: normal;
   display: inline-block;
 }
 
-.main1 .content .left .up .right1 .center .table2 {
+#newEgg .main1 .content .left .up .right1 .center .table2 {
   margin: 12px 0 0 0px;
   border-collapse: collapse;
   border-spacing: 0;
@@ -679,19 +680,19 @@
   top: -5px;
 }
 
-.main1 .content .left .up .right1 .center .table2 caption {
+#newEgg .main1 .content .left .up .right1 .center .table2 caption {
   text-align: left;
   display: block;
   margin-bottom: 3px;
   line-height: 18px;
 }
 
-.main1 .content .left .up .right1 .center .table2 tr td {
+#newEgg .main1 .content .left .up .right1 .center .table2 tr td {
   border: 1px solid #f2f2f2;
   padding: 0;
 }
 
-.main1 .content .left .up .right1 .center .table2 tr td a {
+#newEgg .main1 .content .left .up .right1 .center .table2 tr td a {
   vertical-align: middle;
   display: inline-block;
   height: 40px;
@@ -699,7 +700,7 @@
   color: #666;
 }
 
-.main1 .content .left .up .right1 .center .bg1 img {
+#newEgg .main1 .content .left .up .right1 .center .bg1 img {
   position: absolute;
   zoom: 1;
   border: none;
@@ -708,18 +709,18 @@
   z-index: -1;
 }
 
-.main1 .content .left .up .right1 .up1 {
+#newEgg .main1 .content .left .up .right1 .up1 {
   position: relative;
   overflow: hidden;
   padding: 10px;
 }
 
-.main1 .content .left .up .right1 .down1 {
+#newEgg .main1 .content .left .up .right1 .down1 {
   width: 100%;
   height: 203px;
 }
 
-.main1 .content .left .up .right1 .down1 .title1 {
+#newEgg .main1 .content .left .up .right1 .down1 .title1 {
   width: 100%;
   height: 24px;
   text-align: left;
@@ -727,7 +728,7 @@
   margin-bottom: 10px;
 }
 
-.main1 .content .left .up .right1 .down1 .title1 h2 {
+#newEgg .main1 .content .left .up .right1 .down1 .title1 h2 {
   font-size: 16px;
   padding-left: 12px;
   line-height: 24px;
@@ -736,7 +737,7 @@
   font-weight: 800;
 }
 
-.main1 .content .left .up .right1 .down1 .title1 > span {
+#newEgg .main1 .content .left .up .right1 .down1 .title1 > span {
   color: #666;
   font-weight: bold;
   font-size: 15px;
@@ -747,7 +748,7 @@
   top: 0;
 }
 
-.main1 .content .left .up .right1 .down1 .title1 > span span {
+#newEgg .main1 .content .left .up .right1 .down1 .title1 > span span {
   display: inline-block;
   width: 28px;
   height: 28px;
@@ -757,7 +758,7 @@
   border-radius: 2px;
 }
 
-.main1 .content .left .up .right1 .down1 .title1 a {
+#newEgg .main1 .content .left .up .right1 .down1 .title1 a {
   position: absolute;
   top: 0;
   right: 10px;
@@ -765,20 +766,20 @@
   font-weight: 800;
 }
 
-.main1 .content .left .up .right1 .down1 #lunbotu2 {
+#newEgg .main1 .content .left .up .right1 .down1 #lunbotu2 {
   width: 100%;
   height: 169px;
   padding-left: 3px;
   box-sizing: border-box;
 }
 
-.main1 .content .left .down {
+#newEgg .main1 .content .left .down {
   width: 100%;
   height: 287px;
   position: relative;
 }
 
-.main1 .content .left .down h2 {
+#newEgg .main1 .content .left .down h2 {
   border-top: none;
   padding-top: 7px;
   color: #f60;
@@ -791,14 +792,14 @@
   font-weight: 800;
 }
 
-.main1 .content .left .down .hot_buy_title {
+#newEgg .main1 .content .left .down .hot_buy_title {
   width: 880px;
   position: absolute;
   top: 16px;
   left: 80px;
 }
 
-.main1 .content .left .down .hot_buy_title p {
+#newEgg .main1 .content .left .down .hot_buy_title p {
   padding-left: 16px;
   background: url(https://s.neweggimages.com.cn/WebResources/2009/Default/Nest/img_v3/hot_flash.png) 0 2px no-repeat;
   float: left;
@@ -806,11 +807,11 @@
   cursor: pointer;
 }
 
-.main1 .content .left .down .hot_buy_title span {
+#newEgg .main1 .content .left .down .hot_buy_title span {
   float: right;
 }
 
-.main1 .content .left .down #lunbotu3 {
+#newEgg .main1 .content .left .down #lunbotu3 {
   width: 100%;
   height: 239px;
   border: 1px solid pink;
@@ -818,23 +819,333 @@
   box-sizing: border-box;
 }
 
-.main1 .content .right {
+#newEgg .main1 .content .right {
   width: 230px;
 }
 
-.main1 .content .right #lunbotu4 {
+#newEgg .main1 .content .right #lunbotu4 {
   width: 230px;
   height: 241px;
   padding-top: 10px;
   margin-bottom: 10px;
 }
 
-.main1 .content .right .right_a1 img {
+#newEgg .main1 .content .right .right_a1 img {
   margin-bottom: 10px;
 }
 
-.main1 .content .right .news {
-  width: 230px;
-  height: 122px;
-  background-color: pink;
+#newEgg .main1 .content .right .news {
+  padding: 10px 0;
+  width: 99%;
+  border: 1px solid #d9d9d9;
+  height: 100px;
+  background: #f6f6f6;
+  margin-top: 10px;
+}
+
+#newEgg .main1 .content .right .news dl {
+  text-align: left;
+}
+
+#newEgg .main1 .content .right .news dl dt {
+  font: bolder 14px simusn;
+  color: #666;
+  margin-bottom: 8px;
+  height: 18px;
+  padding: 0 10px 5px 10px;
+  border-bottom: 1px dashed #D9D9D9;
+}
+
+#newEgg .main1 .content .right .news dl dt h5 {
+  font: bolder 14px simusn;
+  color: #666;
+  margin: 0 0 8px 0;
+  display: inline;
+}
+
+#newEgg .main1 .content .right .news dl dt a {
+  font: 12px simsun;
+  float: right;
+  margin: 1px 10px 0 10px;
+  color: #666;
+}
+
+#newEgg .main1 .content .right .news dl dd {
+  font: 12px simusn;
+  margin-bottom: 6px;
+  height: 14px;
+  clear: both;
+  padding: 0 10px;
+}
+
+#newEgg .main1 .content .right .news dl dd a {
+  color: #666;
+}
+
+#newEgg .main1 .content .right .news dl dd i {
+  color: #f40;
+  font-size: 14px;
+}
+
+#newEgg .main2 {
+  width: 100%;
+}
+
+#newEgg .main2 .content {
+  width: 1200px;
+  margin: auto;
+}
+
+#newEgg .main2 h2 {
+  width: 100%;
+  height: 48px;
+  border-top: none;
+  padding-top: 7px;
+  color: #f60;
+  padding-left: 10px;
+  font-size: 20px;
+  border-right: none;
+  font-weight: 900;
+  border-bottom: 3px solid #f60;
+  position: relative;
+}
+
+#newEgg .main2 h2 span {
+  font-size: 12px;
+  line-height: 1.5;
+  color: #484848;
+  position: absolute;
+  right: 0px;
+  top: 15px;
+  font-weight: 300;
+}
+
+#newEgg .main2 #goodsGoodReputation {
+  width: 1200px;
+  height: 277px;
+  border: 1px solid #dadada;
+  box-sizing: border-box;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+#newEgg .main2 #goodsGoodReputation li {
+  padding-top: 35px;
+  height: 240px;
+  float: left;
+  width: 175px;
+  transition: all 0.5s;
+}
+
+#newEgg .main2 #goodsGoodReputation li .ago {
+  display: none;
+}
+
+#newEgg .main2 #goodsGoodReputation li .ago img {
+  width: 250px;
+  height: 185px;
+  margin: 0 30px;
+}
+
+#newEgg .main2 #goodsGoodReputation li .ago > div {
+  width: 338px;
+  height: 208px;
+}
+
+#newEgg .main2 #goodsGoodReputation li .ago > div h3 {
+  white-space: nowrap;
+  margin-bottom: 10px;
+}
+
+#newEgg .main2 #goodsGoodReputation li .ago > div h3 strong {
+  color: #f60;
+  font-weight: 900;
+}
+
+#newEgg .main2 #goodsGoodReputation li .ago > div h3 a {
+  color: #333;
+  display: inline-block;
+  font: 14px tahoma, microsoft yahei;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  vertical-align: top;
+  width: 270px;
+}
+
+#newEgg .main2 #goodsGoodReputation li .ago > div .p1 {
+  line-height: 20px;
+  color: #676767;
+  height: 123px;
+  margin-bottom: 10px;
+}
+
+#newEgg .main2 #goodsGoodReputation li .ago > div .bottom .rank a {
+  float: left;
+  padding-left: 65px;
+  height: 12px;
+  line-height: 12px;
+  font-size: 10px;
+  color: #039;
+  background: url(https://s.neweggimages.com.cn/WebResources/2009/Default/Nest/img_v3/flat_rank.gif) no-repeat left 0;
+}
+
+#newEgg .main2 #goodsGoodReputation li .ago > div .bottom .user .p2 {
+  float: left;
+  width: 100px;
+  line-height: 20px;
+  margin-right: 10px;
+  text-align: right;
+  color: #676767;
+  white-space: nowrap;
+  font-size: 12px;
+}
+
+#newEgg .main2 #goodsGoodReputation li .ago > div .bottom .user span {
+  background: url(https://s.neweggimages.com.cn/WebResources/2009/Default/Nest/img_v3/user140106.jpg) no-repeat left top;
+  background-position: -1px -205px;
+  display: block;
+  height: 46px;
+  width: 46px;
+  overflow: hidden;
+  text-indent: -20000px;
+}
+
+#newEgg .main2 #goodsGoodReputation li .ago > div .event_show {
+  display: none;
+}
+
+#newEgg .main2 #goodsGoodReputation li .ago > div .event_show p {
+  color: #f60;
+}
+
+#newEgg .main2 #goodsGoodReputation li .later {
+  display: block;
+  position: relative;
+  padding-left: 20px;
+  box-sizing: border-box;
+}
+
+#newEgg .main2 #goodsGoodReputation li .later h3 {
+  color: #333;
+  font: 14px tahoma, microsoft yahei;
+  margin-bottom: 10px;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 100%;
+}
+
+#newEgg .main2 #goodsGoodReputation li .later > div {
+  position: absolute;
+  top: 26px;
+  left: 18px;
+  z-index: 3;
+}
+
+#newEgg .main2 #goodsGoodReputation li .later > div p {
+  color: #f60;
+  line-height: 1.5;
+}
+
+#newEgg .main2 #goodsGoodReputation li .later img {
+  width: 220px;
+  height: 165px;
+  position: absolute;
+  bottom: -218px;
+  left: 0;
+}
+
+#newEgg .main2 #goodsGoodReputation li:nth-child(1) {
+  width: 670px;
+}
+
+#newEgg .main2 #goodsGoodReputation li:nth-child(1) .ago {
+  display: block;
+}
+
+#newEgg .main2 #goodsGoodReputation li:nth-child(1) .later {
+  display: none;
+}
+
+#newEgg .main2 .Container_Tab {
+  width: 100%;
+  height: 290px;
+}
+
+#newEgg .main2 .Container_Tab > ul {
+  width: 960px;
+  height: 270px;
+  border: 1px solid #d9d9d9;
+  box-sizing: border-box;
+  float: left;
+}
+
+#newEgg .main2 .Container_Tab > ul > li {
+  width: 25%;
+  height: 30px;
+  float: left;
+}
+
+#newEgg .main2 .Container_Tab > ul > li .span1 {
+  display: block;
+  width: 100%;
+  color: #666;
+  background: #F6F6F6;
+  border-bottom: 1px solid #d9d9d9;
+  border-left: 1px solid #d9d9d9;
+  box-sizing: border-box;
+  float: left;
+  height: 29px;
+  line-height: 30px;
+  font-size: 14px;
+  text-align: center;
+}
+
+#newEgg .main2 .Container_Tab > ul > li ul {
+  width: 958px;
+  padding: 30px 10px 0;
+  height: 208px;
+  overflow: hidden;
+  position: relative;
+}
+
+#newEgg .main2 .Container_Tab > ul > li ul li {
+  float: left;
+  width: 150px;
+  height: 183px;
+  padding: 0 18px;
+  position: relative;
+}
+
+#newEgg .main2 .Container_Tab > ul > li ul li .img1 {
+  width: 144px;
+  height: 108px;
+  display: block;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+#newEgg .main2 .Container_Tab > ul > li ul li .img2 {
+  width: 52px;
+  height: 52px;
+  position: absolute;
+  top: 3px;
+  right: 10px;
+}
+
+#newEgg .main2 .Container_Tab > ul > li ul li p {
+  color: #666;
+  margin-bottom: 14px;
+  height: 36px;
+  overflow: hidden;
+  word-wrap: break-word;
+  word-break: break-all;
+  margin: 4px 0 14px 0;
+}
+
+#newEgg .main2 .Container_Tab > ul > li ul li span {
+  color: #f60;
+  font-family: arial;
+  font-weight: bold;
+  font-size: 14px;
+  text-align: left;
 }

@@ -1,5 +1,5 @@
 /* 拿到标签 */
-class lunbotu1 {
+class lunbotu6 {
     constructor(data, root = document.body) {
         this.data = data;
         this.sliderBox = null;
@@ -12,7 +12,7 @@ class lunbotu1 {
         this.index = 0;
         this.sliderBoxStyleLeft = 0;
         // this.sliderBoxItemWidth = 700;
-        this.sliderBoxItemWidth = 771;
+        this.sliderBoxItemWidth = 238;
 
 
         this.createHTML()
@@ -44,12 +44,14 @@ class lunbotu1 {
         sliderNav.className = "slider-nav";
 
         let html2 = this.data.map((ele, index) => {
-            return `<li class="slider-nav-item">${index + 1}</li>`
+            return `<li class="slider-nav-item"></li>`
         }).join("");
         sliderNav.innerHTML = html2;
 
         let slider = document.createElement("div");
-        slider.className = "slider"
+
+        // 更改最外层盒子class名
+        slider.className = "slider6"
         slider.appendChild(sliderBox)
         slider.appendChild(sliderControl)
         slider.appendChild(sliderNav)
@@ -114,7 +116,7 @@ class lunbotu1 {
     }
     addMouseHandleWithItem() {
         Array.from(this.sliderNav.children).forEach((ele, index) => {
-            ele.onmouseenter = () => {
+            ele.onmouseover = () => {
                 /* 切换标签 */
                 this.index = index;
                 this.sliderBox.style.left = -this.index * this.sliderBoxItemWidth + "px";
@@ -124,17 +126,13 @@ class lunbotu1 {
     }
 }
 
-var arr = [
+var arr6 = [
 
-    "https://c1.neweggimages.com.cn/NeweggPic2/Marketing/201908/818/banner/750x320.jpg",
-    "https://c1.neweggimages.com.cn/NeweggPic2/Marketing/201907/erji0703/PC/771x245.jpg",
-    "https://c1.neweggimages.com.cn/NeweggPic2/Marketing/201905/chuanpin0528/771x245.jpg",
-    "https://c1.neweggimages.com.cn/NeweggPic2/Marketing/201907/xiari/banner/771x245.jpg",
-    "https://c1.neweggimages.com.cn/NeweggPic2/Marketing/201908/feilieluo0806/PC/771x245.jpg",
-
+    "https://c1.neweggimages.com.cn/NeweggPic2/Marketing/201905/chuanpin0528/238x268.jpg",
+    "https://c1.neweggimages.com.cn/NeweggPic2/Marketing/201905/chudian190510/238x268.jpg",
 ]
 
-var oLunbotu1 = document.querySelector("#lunbotu1");
+var oLunbotu6 = document.querySelector("#lunbotu6");
 
-var banner = new lunbotu1(arr, oLunbotu1);
-banner.init();
+var banner6 = new lunbotu6(arr6, oLunbotu6);
+banner6.init();

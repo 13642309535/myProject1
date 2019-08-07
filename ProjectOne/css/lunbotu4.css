@@ -13,6 +13,7 @@
     padding: 0;
     margin: 0;
     position: absolute;
+    transition: all 0.5s;
 }
 
 .slider4 .slider-box-item {

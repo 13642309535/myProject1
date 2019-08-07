@@ -1,43 +1,43 @@
-.slider {
+.slider7 {
     /* width: 700px;
     height: 350px; */
-    width: 771px;
-    height: 245px;
+    width: 480px;
+    height: 205px;
     overflow: hidden;
     position: relative;
     font-size: 0;
 }
 
-.slider .slider-box {
+.slider7 .slider-box {
     width: 10000px;
     /* height: 350px; */
-    height: 245px;
+    height: 205px;
     padding: 0;
     margin: 0;
     position: absolute;
     transition: all 0.5s;
 }
 
-.slider .slider-box-item {
+.slider7 .slider-box-item {
     /* width: 700px;
     height: 350px; */
-    width: 771px;
-    height: 245px;
+    width: 480px;
+    height: 205px;
     float: left;
     font-size: 40px;
     text-align: center;
     /* line-height: 350px; */
-    line-height: 245px;
+    line-height: 205px;
 }
 
-.slider .slider-box-item img {
+.slider7 .slider-box-item img {
     /* width: 700px;
     height: 350px; */
-    width: 771px;
-    height: 245px;
+    width: 480px;
+    height: 205px;
 }
 
-.slider .slider-control {
+.slider7 .slider-control {
     position: absolute;
     width: 100%;
     height: 100px;
@@ -47,38 +47,38 @@
     font-size: 60px;
 }
 
-.slider .prev {
+.slider7 .prev {
     margin-left: 20px;
     display: none;
 }
 
-.slider .next {
+.slider7 .next {
     float: right;
     margin-right: 20px;
     display: none;
 
 }
 
-.slider .slider-nav {
+.slider7 .slider-nav {
     position: absolute;
-    right: 30px;
-    bottom: 10px;
+    right: 1px;
+    bottom: -7px;
     height: 30px;
 }
 
-.slider .slider-nav-item {
+.slider7 .slider-nav-item {
     background: #666;
     color: #fff;
     float: left;
     border-radius: 15px;
     margin: 0 5px;
     text-align: center;
-    width: 26px;
-    height: 26px;
-    line-height: 26px;
+    width: 16px;
+    height: 16px;
+    line-height: 16px;
     font-size: 12px;
 }
 
-.slider .active {
+.slider7 .active {
     background: #f60;
 }

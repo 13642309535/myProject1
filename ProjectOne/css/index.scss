@@ -517,9 +517,10 @@
                     height: 478px;
 
                     .left1 {
-                        width: 179px;
+                        width: 180px;
                         height: 447px;
                         border: #F60 2px solid;
+                        border-left: #F60 3px solid;
                         border-top: none;
                         box-sizing: border-box;
                         position: relative;
@@ -606,13 +607,14 @@
 
                             >div {
                                 width: 175px;
-                                height: 175px;
+                                height: 157px;
                                 width: 100%;
                                 padding-top: 10px;
                                 padding-bottom: 10px;
                                 padding-right: 15px;
                                 box-sizing: border-box;
                                 border-bottom: 1px solid #E5E5E5;
+                                background-color: #f7f7f7;
 
 
                                 >i {
@@ -1002,6 +1004,7 @@
             border-right: none;
             font-weight: 900;
             border-bottom: 3px solid #f60;
+            box-sizing: border-box;
             position: relative;
 
             span {
@@ -1160,7 +1163,7 @@
                         height: 165px;
                         position: absolute;
                         bottom: -218px;
-                        left: 0;
+                        left: 5px;
                     }
                 }
 
@@ -1188,12 +1191,13 @@
             width: 100%;
             height: 290px;
 
-            >ul {
+            #goodsGoodReputation2 {
                 width: 960px;
                 height: 270px;
                 border: 1px solid #d9d9d9;
                 box-sizing: border-box;
                 float: left;
+                position: relative;
 
                 >li {
                     width: 25%;
@@ -1215,13 +1219,16 @@
                         text-align: center;
                     }
 
-                    ul {
-                        // display: none;
+                    .ul2 {
+                        display: none;
                         width: 958px;
                         padding: 30px 10px 0;
                         height: 208px;
                         overflow: hidden;
-                        position: relative;
+                        position: absolute;
+                        left: 0px;
+                        top: 30px;
+
 
                         li {
                             float: left;
@@ -1269,11 +1276,405 @@
 
 
 
+
                 }
 
             }
         }
     }
 
+    .main3 {
+        width: 100%;
+        margin-bottom: 20px;
+
+        .content {
+            width: 1200px;
+            margin: auto;
+
+            .floor {
+
+                .left3 {
+                    width: 960px;
+                    height: 505px;
+                    margin-bottom: 20px;
+
+
+                    h2 {
+                        width: 100%;
+                        height: 42px;
+                        padding-left: 10px;
+                        box-sizing: border-box;
+                        color: #2565bd;
+                        font-size: 20px;
+                        border-right: none;
+                        line-height: 36px;
+                        line-height: 38px\9;
+                        border-top: 1px solid #e6e6e6;
+                        border-bottom: 3px solid #2565bd;
+                        font-weight: 800;
+                    }
+
+                    .ul3 {
+                        width: 960px;
+                        height: 410px;
+                        padding-right: 10px;
+                        box-sizing: border-box;
+                        overflow: hidden;
+                        border: 1px solid #dadada;
+                        border-top: none;
+                        border-bottom: 1px solid #e9e9e9;
+                        padding: 0px 10px 0;
+                        border-top: none;
+
+                        >li {
+                            width: 222px;
+                            height: 205px;
+                            padding: 25px 12px 1px 19px;
+                            box-sizing: border-box;
+                            overflow: hidden;
+                            float: left;
+                            position: relative;
+
+
+                            .img1 {
+                                width: 144px;
+                                height: 108px;
+                                display: block;
+                                margin: 0 auto;
+                                overflow: hidden;
+                                text-align: center;
+                            }
+
+                            .img2 {
+                                position: absolute;
+                                right: -4px;
+                                top: 19px;
+                            }
+
+                            p {
+                                height: 36px;
+                                overflow: hidden;
+                                word-wrap: break-word;
+                                word-break: break-all;
+                                margin: 4px 0;
+                                color: #666;
+                                text-align: left;
+                            }
+
+                            span {
+                                color: #f60;
+                                font-family: arial;
+                                font-weight: bold;
+                                font-size: 14px;
+                                text-align: left;
+                            }
+                        }
+
+                        .lunbotu7 {
+                            float: left;
+                            width: 480px;
+                            height: 205px;
+                        }
+
+                    }
+
+                    .ul3p {
+                        width: 100%;
+                        padding: 6px 0 6px 3px;
+                        box-sizing: border-box;
+                        overflow: hidden;
+                        border: 1px solid #dadada;
+                        border-top: none;
+                        height: 53px;
+
+
+                        li {
+                            text-align: center;
+                            overflow: hidden;
+                            float: left;
+                            width: 119px;
+                            height: 40px;
+
+                            a {
+                                display: block;
+                                width: 100px;
+                                height: 40px;
+                                margin: 0 auto;
+                                overflow: hidden;
+                            }
+
+                            img {
+                                width: 100px;
+                                height: 80px;
+                            }
+                        }
+                    }
+
+
+
+                }
+
+            }
+
+
+
+        }
+    }
+
+    .foot {
+        width: 100%;
+        height: 200px;
+        // background-color: pink;
+
+        .content {
+            width: 1200px;
+            margin: auto;
+
+            .f1 {
+                li {
+                    margin-right: 13px;
+                    border-color: #caf2c2;
+                    float: left;
+                    padding: 2px;
+                    border: 1px solid #ddd;
+                    overflow: hidden;
+
+                    a {
+                        width: 385px;
+                        display: block;
+                        overflow: hidden;
+
+                        img {
+                            width: 100%;
+                            margin-left: 0;
+                            display: block;
+                            border: none;
+                        }
+                    }
+
+                }
+
+                li:nth-child(2) {
+                    margin-right: 0;
+                }
+
+
+
+            }
+
+            .f2 {
+                margin-top: 20px;
+
+
+                >ul {
+                    width: 700px;
+                    height: 71px;
+
+                    li {
+                        width: 350px;
+                        height: 100%;
+                        float: left;
+
+                        .f2a {
+                            width: 70px;
+                            height: 70px;
+                            background-image: url(https://s.neweggimages.com.cn/WebResources/2009/Default/Nest/img_v3/infobook_qrcode_v1.png);
+                            width: 70px;
+                            height: 70px;
+                            float: left;
+                            background-position: left -130px;
+                        }
+
+                        .f2b {
+                            margin-left: 10px;
+
+                            h3 {
+                                font-size: 14px;
+                                color: #484848;
+                                font-weight: bold;
+
+                            }
+
+                            p {
+                                margin-top: 19px;
+
+                            }
+                        }
+                    }
+
+
+                }
+
+                .subscibe {
+                    // width: 280px;
+                    height: 71px;
+
+                    .up2 {
+
+                        .tubiao {
+                            display: inline-block;
+                            background-repeat: no-repeat;
+                            width: 46px;
+                            height: 42px;
+                            background-image: url(https://s.neweggimages.com.cn/WebResources/2009/Default/Nest/img_v3/infobook_qrcode_v1.png);
+                        }
+
+                        .up2a {
+                            margin-left: 10px;
+
+                            h3 {
+                                font-size: 14px;
+                                color: #484848;
+                                font-weight: bold;
+
+
+
+
+                            }
+
+                            p {
+                                margin-top: 5px;
+                                width: 200px;
+
+                                span {
+                                    color: #666;
+                                    margin-right: 10px;
+                                }
+
+                                .span1 {
+                                    margin-right: 10px;
+                                }
+
+                            }
+                        }
+
+                    }
+
+                    .down2 {
+                        input {
+                            width: 212px;
+                            height: 33px;
+                            border: 1px solid #d8d8d8;
+                            padding: 5px 10px;
+                            box-sizing: border-box;
+                            background-color: #f3f3f3;
+                            color: #b7b7b7;
+                        }
+
+                        a {
+                            background-color: #f7661f;
+                            border: 1px solid #f7661f;
+                            font-weight: bolder;
+                            font-size: 14px;
+                            height: 30px;
+                            line-height: 30px;
+                            color: #fff;
+                            text-align: center;
+                            display: inline-block;
+                            border-radius: 2px;
+                            vertical-align: top;
+                            line-height: 30px;
+                            width: 68px;
+                            margin-left: 5px;
+                            font-weight: 900;
+                        }
+
+                    }
+
+
+
+                }
+
+                .focusUs {
+
+                    h3 {
+                        font-size: 14px;
+                        color: #484848;
+                        font-weight: bold;
+                    }
+
+                    ul {
+                        margin-left: 75px;
+
+                        li {
+                            span {
+
+                                background: url(https://s.neweggimages.com.cn/WebResources/2009/Default/Nest/img_v3/wb_attention.png) repeat scroll;
+                                height: 23px;
+                                width: 24px;
+                                display: block;
+                                padding-top: 6px;
+                                background-position: left -29px;
+                            }
+
+                            a {
+                                background: url(https://s.neweggimages.com.cn/WebResources/2009/Default/Nest/img_v3/wb_attention.png) repeat scroll;
+                                background-position: left -58px;
+                                height: 28px;
+                                width: 46px;
+                                float: left;
+                                color: white;
+                                padding-left: 8px;
+                                padding-top: 1px;
+
+                            }
+                        }
+
+                        li:nth-child(1) {
+                            span {
+                                background-position: left 0;
+                            }
+
+                        }
+
+                    }
+                }
+
+            }
+
+            .f3 {
+                width: 100%;
+                height: 185px;
+                margin-top: 50px;
+
+                dl {
+                    width: 25%;
+                    height: 100%;
+
+                    dt {
+                        background-position: left 2px;
+                        font-size: 14px;
+                        font-weight: bold;
+                        padding-left: 28px;
+                        top: -10px;
+                        height: 20px;
+                        overflow: hidden;
+                        line-height: 20px;
+                        background: url(https://s.neweggimages.com.cn/WebResources/2009/Default/Nest/img_v3/helpcenter.gif) no-repeat;
+                        color: #484848;
+                        display: block;
+                    }
+
+                    dd {
+                        padding: 10px 0 0 16px;
+                        display: block;
+                        margin-inline-start: 40px;
+
+                        ul {
+                            list-style: disc outside none;
+
+                            li {
+                                line-height: 22px;
+                                height: 22px;
+                                overflow: hidden;
+                            }
+                        }
+                    }
+                }
+
+            }
+
+        }
+    }
 
 }

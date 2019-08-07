@@ -488,9 +488,10 @@
 }
 
 #newEgg .main1 .content .left .up .left1 {
-  width: 179px;
+  width: 180px;
   height: 447px;
   border: #F60 2px solid;
+  border-left: #F60 3px solid;
   border-top: none;
   box-sizing: border-box;
   position: relative;
@@ -564,13 +565,14 @@
 
 #newEgg .main1 .content .left .up .left1 > ul > div {
   width: 175px;
-  height: 175px;
+  height: 157px;
   width: 100%;
   padding-top: 10px;
   padding-bottom: 10px;
   padding-right: 15px;
   box-sizing: border-box;
   border-bottom: 1px solid #E5E5E5;
+  background-color: #f7f7f7;
 }
 
 #newEgg .main1 .content .left .up .left1 > ul > div > i {
@@ -907,6 +909,7 @@
   border-right: none;
   font-weight: 900;
   border-bottom: 3px solid #f60;
+  box-sizing: border-box;
   position: relative;
 }
 
@@ -1051,7 +1054,7 @@
   height: 165px;
   position: absolute;
   bottom: -218px;
-  left: 0;
+  left: 5px;
 }
 
 #newEgg .main2 #goodsGoodReputation li:nth-child(1) {
@@ -1071,21 +1074,22 @@
   height: 290px;
 }
 
-#newEgg .main2 .Container_Tab > ul {
+#newEgg .main2 .Container_Tab #goodsGoodReputation2 {
   width: 960px;
   height: 270px;
   border: 1px solid #d9d9d9;
   box-sizing: border-box;
   float: left;
+  position: relative;
 }
 
-#newEgg .main2 .Container_Tab > ul > li {
+#newEgg .main2 .Container_Tab #goodsGoodReputation2 > li {
   width: 25%;
   height: 30px;
   float: left;
 }
 
-#newEgg .main2 .Container_Tab > ul > li .span1 {
+#newEgg .main2 .Container_Tab #goodsGoodReputation2 > li .span1 {
   display: block;
   width: 100%;
   color: #666;
@@ -1100,15 +1104,18 @@
   text-align: center;
 }
 
-#newEgg .main2 .Container_Tab > ul > li ul {
+#newEgg .main2 .Container_Tab #goodsGoodReputation2 > li .ul2 {
+  display: none;
   width: 958px;
   padding: 30px 10px 0;
   height: 208px;
   overflow: hidden;
-  position: relative;
+  position: absolute;
+  left: 0px;
+  top: 30px;
 }
 
-#newEgg .main2 .Container_Tab > ul > li ul li {
+#newEgg .main2 .Container_Tab #goodsGoodReputation2 > li .ul2 li {
   float: left;
   width: 150px;
   height: 183px;
@@ -1116,7 +1123,7 @@
   position: relative;
 }
 
-#newEgg .main2 .Container_Tab > ul > li ul li .img1 {
+#newEgg .main2 .Container_Tab #goodsGoodReputation2 > li .ul2 li .img1 {
   width: 144px;
   height: 108px;
   display: block;
@@ -1124,7 +1131,7 @@
   overflow: hidden;
 }
 
-#newEgg .main2 .Container_Tab > ul > li ul li .img2 {
+#newEgg .main2 .Container_Tab #goodsGoodReputation2 > li .ul2 li .img2 {
   width: 52px;
   height: 52px;
   position: absolute;
@@ -1132,7 +1139,7 @@
   right: 10px;
 }
 
-#newEgg .main2 .Container_Tab > ul > li ul li p {
+#newEgg .main2 .Container_Tab #goodsGoodReputation2 > li .ul2 li p {
   color: #666;
   margin-bottom: 14px;
   height: 36px;
@@ -1142,10 +1149,348 @@
   margin: 4px 0 14px 0;
 }
 
-#newEgg .main2 .Container_Tab > ul > li ul li span {
+#newEgg .main2 .Container_Tab #goodsGoodReputation2 > li .ul2 li span {
   color: #f60;
   font-family: arial;
   font-weight: bold;
   font-size: 14px;
   text-align: left;
+}
+
+#newEgg .main3 {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+#newEgg .main3 .content {
+  width: 1200px;
+  margin: auto;
+}
+
+#newEgg .main3 .content .floor .left3 {
+  width: 960px;
+  height: 505px;
+  margin-bottom: 20px;
+}
+
+#newEgg .main3 .content .floor .left3 h2 {
+  width: 100%;
+  height: 42px;
+  padding-left: 10px;
+  box-sizing: border-box;
+  color: #2565bd;
+  font-size: 20px;
+  border-right: none;
+  line-height: 36px;
+  line-height: 38px\9;
+  border-top: 1px solid #e6e6e6;
+  border-bottom: 3px solid #2565bd;
+  font-weight: 800;
+}
+
+#newEgg .main3 .content .floor .left3 .ul3 {
+  width: 960px;
+  height: 410px;
+  padding-right: 10px;
+  box-sizing: border-box;
+  overflow: hidden;
+  border: 1px solid #dadada;
+  border-top: none;
+  border-bottom: 1px solid #e9e9e9;
+  padding: 0px 10px 0;
+  border-top: none;
+}
+
+#newEgg .main3 .content .floor .left3 .ul3 > li {
+  width: 222px;
+  height: 205px;
+  padding: 25px 12px 1px 19px;
+  box-sizing: border-box;
+  overflow: hidden;
+  float: left;
+  position: relative;
+}
+
+#newEgg .main3 .content .floor .left3 .ul3 > li .img1 {
+  width: 144px;
+  height: 108px;
+  display: block;
+  margin: 0 auto;
+  overflow: hidden;
+  text-align: center;
+}
+
+#newEgg .main3 .content .floor .left3 .ul3 > li .img2 {
+  position: absolute;
+  right: -4px;
+  top: 19px;
+}
+
+#newEgg .main3 .content .floor .left3 .ul3 > li p {
+  height: 36px;
+  overflow: hidden;
+  word-wrap: break-word;
+  word-break: break-all;
+  margin: 4px 0;
+  color: #666;
+  text-align: left;
+}
+
+#newEgg .main3 .content .floor .left3 .ul3 > li span {
+  color: #f60;
+  font-family: arial;
+  font-weight: bold;
+  font-size: 14px;
+  text-align: left;
+}
+
+#newEgg .main3 .content .floor .left3 .ul3 .lunbotu7 {
+  float: left;
+  width: 480px;
+  height: 205px;
+}
+
+#newEgg .main3 .content .floor .left3 .ul3p {
+  width: 100%;
+  padding: 6px 0 6px 3px;
+  box-sizing: border-box;
+  overflow: hidden;
+  border: 1px solid #dadada;
+  border-top: none;
+  height: 53px;
+}
+
+#newEgg .main3 .content .floor .left3 .ul3p li {
+  text-align: center;
+  overflow: hidden;
+  float: left;
+  width: 119px;
+  height: 40px;
+}
+
+#newEgg .main3 .content .floor .left3 .ul3p li a {
+  display: block;
+  width: 100px;
+  height: 40px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+#newEgg .main3 .content .floor .left3 .ul3p li img {
+  width: 100px;
+  height: 80px;
+}
+
+#newEgg .foot {
+  width: 100%;
+  height: 200px;
+}
+
+#newEgg .foot .content {
+  width: 1200px;
+  margin: auto;
+}
+
+#newEgg .foot .content .f1 li {
+  margin-right: 13px;
+  border-color: #caf2c2;
+  float: left;
+  padding: 2px;
+  border: 1px solid #ddd;
+  overflow: hidden;
+}
+
+#newEgg .foot .content .f1 li a {
+  width: 385px;
+  display: block;
+  overflow: hidden;
+}
+
+#newEgg .foot .content .f1 li a img {
+  width: 100%;
+  margin-left: 0;
+  display: block;
+  border: none;
+}
+
+#newEgg .foot .content .f1 li:nth-child(2) {
+  margin-right: 0;
+}
+
+#newEgg .foot .content .f2 {
+  margin-top: 20px;
+}
+
+#newEgg .foot .content .f2 > ul {
+  width: 700px;
+  height: 71px;
+}
+
+#newEgg .foot .content .f2 > ul li {
+  width: 350px;
+  height: 100%;
+  float: left;
+}
+
+#newEgg .foot .content .f2 > ul li .f2a {
+  width: 70px;
+  height: 70px;
+  background-image: url(https://s.neweggimages.com.cn/WebResources/2009/Default/Nest/img_v3/infobook_qrcode_v1.png);
+  width: 70px;
+  height: 70px;
+  float: left;
+  background-position: left -130px;
+}
+
+#newEgg .foot .content .f2 > ul li .f2b {
+  margin-left: 10px;
+}
+
+#newEgg .foot .content .f2 > ul li .f2b h3 {
+  font-size: 14px;
+  color: #484848;
+  font-weight: bold;
+}
+
+#newEgg .foot .content .f2 > ul li .f2b p {
+  margin-top: 19px;
+}
+
+#newEgg .foot .content .f2 .subscibe {
+  height: 71px;
+}
+
+#newEgg .foot .content .f2 .subscibe .up2 .tubiao {
+  display: inline-block;
+  background-repeat: no-repeat;
+  width: 46px;
+  height: 42px;
+  background-image: url(https://s.neweggimages.com.cn/WebResources/2009/Default/Nest/img_v3/infobook_qrcode_v1.png);
+}
+
+#newEgg .foot .content .f2 .subscibe .up2 .up2a {
+  margin-left: 10px;
+}
+
+#newEgg .foot .content .f2 .subscibe .up2 .up2a h3 {
+  font-size: 14px;
+  color: #484848;
+  font-weight: bold;
+}
+
+#newEgg .foot .content .f2 .subscibe .up2 .up2a p {
+  margin-top: 5px;
+  width: 200px;
+}
+
+#newEgg .foot .content .f2 .subscibe .up2 .up2a p span {
+  color: #666;
+  margin-right: 10px;
+}
+
+#newEgg .foot .content .f2 .subscibe .up2 .up2a p .span1 {
+  margin-right: 10px;
+}
+
+#newEgg .foot .content .f2 .subscibe .down2 input {
+  width: 212px;
+  height: 33px;
+  border: 1px solid #d8d8d8;
+  padding: 5px 10px;
+  box-sizing: border-box;
+  background-color: #f3f3f3;
+  color: #b7b7b7;
+}
+
+#newEgg .foot .content .f2 .subscibe .down2 a {
+  background-color: #f7661f;
+  border: 1px solid #f7661f;
+  font-weight: bolder;
+  font-size: 14px;
+  height: 30px;
+  line-height: 30px;
+  color: #fff;
+  text-align: center;
+  display: inline-block;
+  border-radius: 2px;
+  vertical-align: top;
+  line-height: 30px;
+  width: 68px;
+  margin-left: 5px;
+  font-weight: 900;
+}
+
+#newEgg .foot .content .f2 .focusUs h3 {
+  font-size: 14px;
+  color: #484848;
+  font-weight: bold;
+}
+
+#newEgg .foot .content .f2 .focusUs ul {
+  margin-left: 75px;
+}
+
+#newEgg .foot .content .f2 .focusUs ul li span {
+  background: url(https://s.neweggimages.com.cn/WebResources/2009/Default/Nest/img_v3/wb_attention.png) repeat scroll;
+  height: 23px;
+  width: 24px;
+  display: block;
+  padding-top: 6px;
+  background-position: left -29px;
+}
+
+#newEgg .foot .content .f2 .focusUs ul li a {
+  background: url(https://s.neweggimages.com.cn/WebResources/2009/Default/Nest/img_v3/wb_attention.png) repeat scroll;
+  background-position: left -58px;
+  height: 28px;
+  width: 46px;
+  float: left;
+  color: white;
+  padding-left: 8px;
+  padding-top: 1px;
+}
+
+#newEgg .foot .content .f2 .focusUs ul li:nth-child(1) span {
+  background-position: left 0;
+}
+
+#newEgg .foot .content .f3 {
+  width: 100%;
+  height: 185px;
+  margin-top: 50px;
+}
+
+#newEgg .foot .content .f3 dl {
+  width: 25%;
+  height: 100%;
+}
+
+#newEgg .foot .content .f3 dl dt {
+  background-position: left 2px;
+  font-size: 14px;
+  font-weight: bold;
+  padding-left: 28px;
+  top: -10px;
+  height: 20px;
+  overflow: hidden;
+  line-height: 20px;
+  background: url(https://s.neweggimages.com.cn/WebResources/2009/Default/Nest/img_v3/helpcenter.gif) no-repeat;
+  color: #484848;
+  display: block;
+}
+
+#newEgg .foot .content .f3 dl dd {
+  padding: 10px 0 0 16px;
+  display: block;
+  margin-inline-start: 40px;
+}
+
+#newEgg .foot .content .f3 dl dd ul {
+  list-style: disc outside none;
+}
+
+#newEgg .foot .content .f3 dl dd ul li {
+  line-height: 22px;
+  height: 22px;
+  overflow: hidden;
 }

@@ -1,5 +1,5 @@
 /* 拿到标签 */
-class lunbotu1 {
+class lunbotu7 {
     constructor(data, root = document.body) {
         this.data = data;
         this.sliderBox = null;
@@ -12,7 +12,7 @@ class lunbotu1 {
         this.index = 0;
         this.sliderBoxStyleLeft = 0;
         // this.sliderBoxItemWidth = 700;
-        this.sliderBoxItemWidth = 771;
+        this.sliderBoxItemWidth = 480;
 
 
         this.createHTML()
@@ -34,6 +34,7 @@ class lunbotu1 {
         }).join("");
         sliderBox.innerHTML = html;
 
+
         let sliderControl = document.createElement("div");
         sliderControl.className = "slider-control";
         sliderControl.innerHTML = `
@@ -49,7 +50,9 @@ class lunbotu1 {
         sliderNav.innerHTML = html2;
 
         let slider = document.createElement("div");
-        slider.className = "slider"
+
+        // 更改最外层盒子
+        slider.className = "slider7"
         slider.appendChild(sliderBox)
         slider.appendChild(sliderControl)
         slider.appendChild(sliderNav)
@@ -124,17 +127,7 @@ class lunbotu1 {
     }
 }
 
-var arr = [
+for (let i = 0, length = 4; i < length; i++) {
+    (new lunbotu7(lunbotu7_data[i], $(".lunbotu7")[i])).init();
 
-    "https://c1.neweggimages.com.cn/NeweggPic2/Marketing/201908/818/banner/750x320.jpg",
-    "https://c1.neweggimages.com.cn/NeweggPic2/Marketing/201907/erji0703/PC/771x245.jpg",
-    "https://c1.neweggimages.com.cn/NeweggPic2/Marketing/201905/chuanpin0528/771x245.jpg",
-    "https://c1.neweggimages.com.cn/NeweggPic2/Marketing/201907/xiari/banner/771x245.jpg",
-    "https://c1.neweggimages.com.cn/NeweggPic2/Marketing/201908/feilieluo0806/PC/771x245.jpg",
-
-]
-
-var oLunbotu1 = document.querySelector("#lunbotu1");
-
-var banner = new lunbotu1(arr, oLunbotu1);
-banner.init();
+}

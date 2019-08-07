@@ -151,20 +151,134 @@ console.log(JSON.stringify(arrT));
 
 
 
-// 
+// 获取好评热品goodsGoodReputation2(tab切换) 数据
+arrT = {
+    title: [],
+    dataList: [
+        [{
+                img_src: 0,
+
+            }, {}, {}, {}, {}
+
+        ],
+        [],
+        [],
+        [],
+    ]
+
+};
+
+
+var dataList = [];
+
+$(".promotion").find(".tabc").each(function (index, item) {
+
+    var arr2 = [];
+
+    $(item).find("li").each(function (index1, item1) {
+        var arr1 = {};
+        arr1.img_src1 = $(item1).find(".img img").attr("src");
+        arr1.img_src2 = $(item1).find("span img").attr("src");
+        arr1.title = $(item1).find(".title a").html();
+        arr1.price = $(item1).find(".price").html();
+        console.log(arr1);
+
+        arr2.push(arr1);
+    })
+
+
+    dataList.push(arr2);
+})
+console.log(JSON.stringify(dataList));
 
 
 
+// 获取main3 floor 数据
+arrT = {
+    title: [],
+    dataList: [
+        [{
+                img1_src: 0,
+                img2_src: 1,
+                title: 2,
+                price: 3
 
 
+            }, {}, {}, {}, {}, {}
+
+        ],
+
+        [],
+        [],
+        [],
+    ],
+
+    dataList2: [
+        [],
+        [],
+        [],
+        [],
+
+    ]
+
+};
+
+var arrT = {};
+arrT.title = [];
+dataList = [];
+dataList2 = [];
 
 
+$(".col720 .floor").each(function (index, item) {
+    arrT.title[index] = $(item).find("h2").html();
+
+    var arr2 = [];
+    $(item).find(".brandlogo  li").each(function (index1, item1) {
+
+        arr2.push($(item1).find("img").attr("src"));
+    })
+    dataList2.push(arr2);
 
 
+    let arr1 = [];
+    $(item).find(".prolist ").each(function (index1, item1) {
+        let obj = {};
+        obj.img1_src = $(item1).find(".img img").attr("src");
+        obj.img2_src = $(item1).find(".icon_pro img").attr("src");
 
-$(".hot_comment_user span").each(function (index, item) {
+        obj.title = $(item1).find(".title  a").html();
 
-    console.dir($(item).css("background").split('"')[1]);
+        obj.price = $(item1).find(".price").html();
+        arr1.push(obj);
+    })
 
+    dataList.push(arr1);
 
 })
+arrT.dataList = dataList;
+arrT.dataList2 = dataList2;
+
+console.log(JSON.stringify(arrT));
+
+
+// 获取轮播图7 数据
+var arr = [
+    [
+
+
+
+    ]
+    []
+    []
+    []
+]
+var arrT = [];
+$(".ad_slider").each(function (index, item) {
+    let arr1 = [];
+    $(item).find("li").each(function (index1, item1) {
+
+        arr1.push($(item1).find("img").attr("src"))
+    })
+    arrT.push(arr1);
+})
+console.log(JSON.stringify(arrT));
